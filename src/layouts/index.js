@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './reset.css'
 import './index.css'
+import AboutPage from '../pages/about'
+import ContactPage from '../pages/contact'
+import ProjectPage from '../pages/projects'
 
 const Layout = ({ children, data }) => (
     <div>
@@ -17,6 +20,9 @@ const Layout = ({ children, data }) => (
         />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>{children()}</div>
+        <ProjectPage />
+        <AboutPage />
+        <ContactPage />
     </div>
 )
 
