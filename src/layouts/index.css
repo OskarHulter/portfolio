@@ -14,30 +14,65 @@ body {
     position: fixed;
 }
 
-.nav-button {
-    padding: 2vh;
-    font-size: 2vw;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .button-container {
     display: flex;
     justify-content: space-around;
     width: 50vw;
 }
 
-.main-button {
-    padding: 2vh;
-    font-size: 2vw;
-    color: var(--blue);
-    background-color: var(--teal);
-    font-family: 'Open Sans', sans-serif;
-    filter: brightness(120%);
-    border: 2px solid var(--teal);
-    margin: 0.1em;
-    width: 20vw;
+button:hover {
+    background-color: var(--blue);
+    color: var(--teal);
 }
 
+button {
+    background-color: var(--teal);
+    color: var(--blue);
+    height: 2.5em;
+    width: 5.5em;
+    border: none;
+    transition: 800ms ease all;
+    padding: 0 2em;
+    font-size: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1.2vmax;
+    outline: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: var(--teal);
+    transition: 400ms ease all;
+}
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.main-button {
+    font-size: 1.8em;
+}
+
+.nav-button {
+    margin: 0;
+}
 .page-title {
     font-size: 9vw;
     color: var(--red);
@@ -71,16 +106,34 @@ body {
 }
 
 .project-page {
+    background-color: var(--teal);
     height: 100vh;
     width: 100vw;
 }
 
 .about-page {
+    background-color: var(--blue);
     height: 100vh;
     width: 100vw;
 }
 
 .contact-page {
+    background-color: var(--teal);
     height: 100vh;
     width: 100vw;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.img__selected {
+    border: red;
+    width: 100px;
+    height: 100px;
+}
+/* media querries for small and big screens */
+@media screen and (min-width: 600px) {
+}
+@media screen and (min-width: 1440px) {
 }

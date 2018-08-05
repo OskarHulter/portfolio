@@ -13,7 +13,6 @@ const IndexPage = () => (
                 <button className="main-button">about</button>
             </div>
         </div>
-        <Link to="/page-2/">Go to page 2</Link>
     </div>
 )
 

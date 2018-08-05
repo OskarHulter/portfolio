@@ -3,9 +3,16 @@ import Link from 'gatsby-link'
 
 const AboutPage = () => (
     <div className="about-page">
-        <h1>Hi from the second page</h1>
-        <p>Welcome to page 2</p>
-        <Link to="/">Go back to the homepage</Link>
+        <h1>As a programmer:</h1>
+        <p>
+            My favorite stack is 100% Javascript but I enjoy learning other
+            technologies.
+        </p>
+        <h1>Other passions:</h1>
+        <p>
+            My other great passions are music, chess, Magic: The Gathering &
+            hiking.
+        </p>
     </div>
 )
 
