@@ -61,6 +61,7 @@ button {
 }
 
 .button-social {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 14vmin;
     width: 14vmin;
     padding: 1.2vmin;
@@ -120,7 +121,6 @@ button:hover:after {
 
 .landing-page {
     background-color: var(--blue);
-    background: radial-gradient(circle, var(--darkteal), var(--blue));
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

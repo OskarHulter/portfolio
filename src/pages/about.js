@@ -6,7 +6,8 @@ const AboutPage = () => (
         <h1>As a programmer:</h1>
         <p>
             My favorite stack is 100% Javascript but I enjoy learning other
-            technologies.
+            technologies. Specializing in JavaScript but I also enjoy broadening
+            my horizons with other languages.
         </p>
         <h1>Other passions:</h1>
         <p>

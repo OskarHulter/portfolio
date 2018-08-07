@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Icons from '../components/icons'
+import SocialButtons from '../components/socialbuttons'
 import MainButtons from '../components/mainbuttons'
 
 const IndexPage = () => (
@@ -13,7 +13,7 @@ const IndexPage = () => (
         </div>
         <div className="interactive-container">
             <MainButtons />
-            <Icons />
+            <SocialButtons />
         </div>
     </div>
 )
