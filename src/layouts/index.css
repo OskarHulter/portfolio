@@ -2,6 +2,7 @@
     --blue: #25008b;
     --teal: #2ea1ab;
     --red: #f05075;
+    --darkteal: #4b1c77;
 }
 
 body {
@@ -14,10 +15,20 @@ body {
     position: fixed;
 }
 
+.nav-button {
+    margin: 1px;
+}
 .button-container {
     display: flex;
     justify-content: space-around;
-    width: 50vw;
+    width: 40vmin;
+    height: 10vmin;
+}
+
+.interactive-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 button:hover {
@@ -28,65 +39,77 @@ button:hover {
 button {
     background-color: var(--teal);
     color: var(--blue);
-    height: 2.5em;
-    width: 5.5em;
+    height: 12vmin;
+    width: 10vmin;
     border: none;
     transition: 800ms ease all;
-    padding: 0 2em;
-    font-size: 1.6em;
+    padding: 0 10vmin;
+    font-size: 5vmin;
     font-family: 'Open Sans', sans-serif;
-    margin: 1.2vmax;
+    margin: 3vmin;
     outline: none;
     cursor: pointer;
 
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
-button:before,
-button:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 2px;
-    width: 0;
-    background: var(--teal);
-    transition: 400ms ease all;
+.container-social {
+    margin-top: 14vh;
 }
-button:after {
-    right: inherit;
-    top: inherit;
-    left: 0;
-    bottom: 0;
+
+.button-social {
+    height: 14vmin;
+    width: 14vmin;
+    padding: 1.2vmin;
+    border-radius: 50%;
 }
+.angle-icon {
+    color: var(--teal);
+    filter: brightness(130%);
+    padding-top: 1vmin;
+    width: 2vmin;
+    height: 1em;
+}
+.main-button {
+    width: 30vmin;
+}
+
+.main-button-text {
+    padding-right: 1vmin;
+}
+
 button:hover:before,
 button:hover:after {
     width: 100%;
     transition: 800ms ease all;
 }
 
-.main-button {
-    font-size: 1.8em;
-}
-
-.nav-button {
-    margin: 0;
-}
 .page-title {
-    font-size: 9vw;
+    font-size: 20vmin;
     color: var(--red);
-    filter: brightness(110%);
-    filter: saturate(110%);
-    letter-spacing: 0.01em;
     font-family: 'Cutive Mono', monospace;
+    line-height: 15vmin;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.oskar-title {
+    font-size: 23vmin;
+    letter-spacing: 1vmin;
+    line-height: 17vmin;
 }
 
 .page-subtitle {
-    font-size: 4vw;
+    color: var(--teal);
+    font-size: 4.8vmin;
     filter: brightness(130%);
-    letter-spacing: 0.1em;
     font-family: 'Cutive Mono', monospace;
+    line-height: 3vmin;
+    padding-bottom: 2vmin;
+    letter-spacing: 0.5vmin;
 }
 
 .page-text {
@@ -97,9 +120,10 @@ button:hover:after {
 
 .landing-page {
     background-color: var(--blue);
+    background: radial-gradient(circle, var(--darkteal), var(--blue));
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 100vh;
     width: 100vw;
@@ -132,6 +156,11 @@ img {
     width: 100px;
     height: 100px;
 }
+
+.container-social {
+    display: flex;
+}
+
 /* media querries for small and big screens */
 @media screen and (min-width: 600px) {
 }

@@ -1,14 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
     <div>
         <ul className="nav-bar">
-            <li className="nav-item">
-                <button className="nav-button">
-                    <Link to="/">{siteTitle}</Link>
-                </button>
-            </li>
             <li className="nav-item">
                 <button className="nav-button">Projects</button>
             </li>
