@@ -1,10 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import SocialButtons from '../components/socialbuttons'
 
 const ContactPage = () => (
     <div className="contact-page">
-        <p>Get in touch!</p>
-        <p>oskarhulter@gmail.com</p>
+        <div className="page-subtitle" />
+        <a href="mailto:oskarhulter@gmail.com">
+            <div className="page-subtitle">
+                <p>oskarhulter@gmail.com</p>
+            </div>
+        </a>
+        <SocialButtons />
     </div>
 )
 

@@ -3,16 +3,17 @@ import Link from 'gatsby-link'
 
 const AboutPage = () => (
     <div className="about-page">
-        <h1>As a programmer:</h1>
-        <p>
-            My favorite stack is 100% Javascript but I enjoy learning other
-            technologies. Specializing in JavaScript but I also enjoy broadening
-            my horizons with other languages.
+        <h1 className="page-subtitle">programmer:</h1>
+        <p className="page-text">
+            *Bachelor's Degree in Systems Science (LTU, 2018). *Passion for
+            building modern web experiences. *Specialized in JavaScript *enjoys
+            learning other technologies. Previous experience: Java C PHP
+            Methodologies & Best practices: Agile LEAN Kanban Mobile-first
         </p>
-        <h1>Other passions:</h1>
-        <p>
-            My other great passions are music, chess, Magic: The Gathering &
-            hiking.
+        <h1 className="page-subtitle">person:</h1>
+        <p className="page-text">
+            My personality type is INTP (big 5 psychological test). My other
+            great passions are music, strategy games & hiking.
         </p>
     </div>
 )

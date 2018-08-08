@@ -18,7 +18,6 @@ const Layout = ({ children, data }) => (
                 { name: 'keywords', content: 'Portfolio, Oskar Hulter' },
             ]}
         />
-        <Header />
         <div>{children()}</div>
         <ProjectPage />
         <AboutPage />

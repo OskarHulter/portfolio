@@ -113,6 +113,14 @@ button:hover:after {
     letter-spacing: 0.5vmin;
 }
 
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    color: var(--blue);
+    justify-content: center;
+    align-items: center;
+}
+
 .page-text {
     font-size: 1.2em;
     line-height: 1.7;
