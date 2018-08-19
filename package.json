@@ -1,14 +1,14 @@
 {
-    "name": "gatsby-starter-default",
-    "description": "Gatsby default starter",
+    "name": "oskar-hulter-portfolio",
+    "description": "My personal website for showcasing my work",
     "version": "1.0.0",
-    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "author": "Oskar Hulter <oskarhulter@gmail.com>",
     "dependencies": {
         "gatsby": "^1.9.277",
-        "gatsby-image": "^1.0.55",
         "gatsby-link": "^1.6.46",
         "gatsby-plugin-react-helmet": "^2.0.11",
         "gatsby-source-filesystem": "^1.5.39",
+        "nuka-carousel": "^4.3.6",
         "react-helmet": "^5.2.0",
         "react-icons": "^3.0.4",
         "react-scroll": "^1.7.10"

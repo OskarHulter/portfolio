@@ -39,21 +39,13 @@ button:hover {
 button {
     background-color: var(--teal);
     color: var(--blue);
-    height: 12vmin;
-    width: 10vmin;
     border: none;
     transition: 800ms ease all;
-    padding: 0 10vmin;
-    font-size: 5vmin;
     font-family: 'Open Sans', sans-serif;
-    margin: 3vmin;
     outline: none;
     cursor: pointer;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    height: 5vmax;
+    min-width: 5vmin;
 }
 
 .container-social {
@@ -66,6 +58,12 @@ button {
     width: 14vmin;
     padding: 1.2vmin;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin: 3vmin;
+    font-size: 2vmin;
 }
 .angle-icon {
     color: var(--teal);
@@ -173,4 +171,18 @@ img {
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1440px) {
+}
+
+/* Carousel Styling */
+
+.slider {
+    border: red;
+}
+
+.slider-control-bottomcenter {
+}
+
+.project-gallery-buttons {
+    display: flex;
+    justify-content: space-between;
 }
