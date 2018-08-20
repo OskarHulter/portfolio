@@ -1,14 +1,22 @@
 import React from 'react'
 import img from '../img/img.jpg'
 import Carousel from 'nuka-carousel'
+/* 
+{
+    const projectName: 'stressless.productions',
+    const description = 'A website.',
+    const technologies used = 'html'
 
-const colors = ['7732bb', '047cc0', '00884b', 'e3bc13', 'db7c00', 'aa231f']
+}
+*/
+// const projects = ['Fyrisbiografens Vänner', 'CMS in PHP', 'Grading Backend', 'stressless.productions', 'festivaltent.shop']
+const colors = ['7732bb', '047cc0', '00884b', 'e3bc13', 'db7c00']
 class Gallery extends React.Component {
     constructor() {
         super(...arguments)
         this.state = {
             slideIndex: 0,
-            length: 6,
+            length: 5,
             wrapAround: true,
             underlineHeader: false,
             slidesToShow: 1.0,
@@ -33,6 +41,13 @@ class Gallery extends React.Component {
                     slidesToShow={this.state.slidesToShow}
                     wrapAround={this.state.wrapAround}
                     slideIndex={this.state.slideIndex}
+                    /* 
+                    renderBottomCenterControls={({ description, currentSlide }) => (
+                        <div className="project-description-text">
+                            My Projects: Slide {currentSlide + 1}
+                        </div>
+                    )}
+                    */
                     renderBottomCenterControls={({ currentSlide }) => (
                         <div className="hej">
                             My Projects: Slide {currentSlide + 1}
@@ -42,15 +57,14 @@ class Gallery extends React.Component {
                         <div>Slide: {slideCount}</div>
                     )}
                 >
-                    {colors
-                        .slice(0, this.state.length)
-                        .map((color, index) => (
-                            <img
-                                src={`http://placehold.it/1000x400/${color}/ffffff/&text=slide${index +
-                                    1}`}
-                                key={color}
-                            />
-                        ))}
+                    {colors.slice(0, this.state.length).map((color, index) => (
+                        <img
+                            // src={`${project}${index+1}.jpg`}
+                            src={`http://placehold.it/1000x400/${color}/ffffff/&text=slide${index +
+                                1}`}
+                            key={color}
+                        />
+                    ))}
                 </Carousel>
                 <div className="project-gallery-buttons">
                     <button onClick={() => this.setState({ slideIndex: 0 })}>
@@ -67,9 +81,6 @@ class Gallery extends React.Component {
                     </button>
                     <button onClick={() => this.setState({ slideIndex: 4 })}>
                         5
-                    </button>
-                    <button onClick={() => this.setState({ slideIndex: 5 })}>
-                        6
                     </button>
                 </div>
             </div>

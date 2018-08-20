@@ -1,7 +1,7 @@
 {
     "name": "oskar-hulter-portfolio",
-    "description": "My personal website for showcasing my work",
-    "version": "1.0.0",
+    "description": "My personal website for showcasing my projects",
+    "version": "0.1.0",
     "author": "Oskar Hulter <oskarhulter@gmail.com>",
     "dependencies": {
         "gatsby": "^1.9.277",

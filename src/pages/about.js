@@ -15,6 +15,10 @@ const AboutPage = () => (
             My personality type is INTP (big 5 psychological test). My other
             great passions are music, strategy games & hiking.
         </p>
+        <p className="page-text">
+            My favorite topics include modern javascript, testing, functional &
+            declarative programmering.
+        </p>
     </div>
 )
 
