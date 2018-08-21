@@ -1,5 +1,10 @@
 import React from 'react'
-import img from '../img/img.jpg'
+import img1 from '../img/img1.jpg'
+import img2 from '../img/img2.jpg'
+import img3 from '../img/img3.jpg'
+import img4 from '../img/img4.png'
+import img5 from '../img/img5.png'
+import img6 from '../img/img6.png'
 import Carousel from 'nuka-carousel'
 /* 
 {
@@ -9,8 +14,16 @@ import Carousel from 'nuka-carousel'
 
 }
 */
-// const projects = ['Fyrisbiografens Vänner', 'CMS in PHP', 'Grading Backend', 'stressless.productions', 'festivaltent.shop']
-const colors = ['7732bb', '047cc0', '00884b', 'e3bc13', 'db7c00']
+const imageDescription1 = ''
+
+const projectImages = [
+    'Fyrisbiografens Vänner',
+    'CMS in PHP',
+    'Grading Backend',
+    'stressless.productions',
+    'festivaltent.shop',
+]
+const images = [img1, img2, img3, img4, img5, img6]
 class Gallery extends React.Component {
     constructor() {
         super(...arguments)
@@ -57,12 +70,12 @@ class Gallery extends React.Component {
                         <div>Slide: {slideCount}</div>
                     )}
                 >
-                    {colors.slice(0, this.state.length).map((color, index) => (
+                    {images.slice(0, this.state.length).map((image, index) => (
                         <img
                             // src={`${project}${index+1}.jpg`}
-                            src={`http://placehold.it/1000x400/${color}/ffffff/&text=slide${index +
-                                1}`}
-                            key={color}
+                            //src={`img${index + 1}`}
+                            src={`../src/img/img${index + 1}.jpg`}
+                            key={index}
                         />
                     ))}
                 </Carousel>
