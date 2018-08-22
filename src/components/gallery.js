@@ -37,7 +37,22 @@ class Gallery extends React.Component {
             transitionMode: 'scroll',
         }
     }
-
+    getImage(currentSlide) {
+        switch (currentSlide) {
+            case 0:
+                return img1
+            case 1:
+                return img2
+            case 2:
+                return img3
+            case 3:
+                return img4
+            case 4:
+                return img5
+            default:
+                return img6
+        }
+    }
     render() {
         return (
             <div
@@ -72,9 +87,8 @@ class Gallery extends React.Component {
                 >
                     {images.slice(0, this.state.length).map((image, index) => (
                         <img
-                            // src={`${project}${index+1}.jpg`}
                             //src={`img${index + 1}`}
-                            src={`../src/img/img${index + 1}.jpg`}
+                            src={this.getImage(index)}
                             key={index}
                         />
                     ))}
