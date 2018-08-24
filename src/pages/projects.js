@@ -2,10 +2,15 @@ import React from 'react'
 import Gallery from '../components/gallery'
 
 const ProjectPage = () => (
-    <div className="project-page">
+    <section
+        className="gallery"
+        ref={section => {
+            this.gallery = section
+        }}
+    >
+        gallery
         <Gallery />
-        <p>Project Gallery</p>
-    </div>
+    </section>
 )
 
 export default ProjectPage
