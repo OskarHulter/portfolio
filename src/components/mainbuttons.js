@@ -6,17 +6,11 @@ const MainButtons = () => (
         <div>
             <button className="main-button">
                 <div className="main-button-text">projects</div>
-                <div className="angle-icon">
-                    <FaAngleDown />
-                </div>
             </button>
         </div>
         <div>
             <button className="main-button">
                 <div className="main-button-text">about</div>
-                <div className="angle-icon">
-                    <FaAngleDown />
-                </div>
             </button>
         </div>
     </div>

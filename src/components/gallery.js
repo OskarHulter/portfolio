@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import React from 'react'
 import img1 from '../img/img1.jpg'
 import img2 from '../img/img2.jpg'
@@ -9,7 +10,7 @@ import Carousel from 'nuka-carousel'
 /* 
 {
     const projectName: 'stressless.productions',
-    const description = 'A website.',
+    const description = 'Platform for downloading royalty-free music. Under Construction',
     const technologies used = 'html'
 
 }
@@ -55,14 +56,7 @@ class Gallery extends React.Component {
     }
     render() {
         return (
-            <div
-                style={{
-                    width: '100vw',
-                    margin: 'auto',
-                    display: 'flex',
-                    flexDirection: 'column',
-                }}
-            >
+            <div className="gallery-carousel">
                 <Carousel
                     transitionMode={this.state.transitionMode}
                     cellAlign={this.state.cellAlign}
@@ -85,13 +79,11 @@ class Gallery extends React.Component {
                         <div>Slide: {slideCount}</div>
                     )}
                 >
-                    {images.slice(0, this.state.length).map((image, index) => (
-                        <img
-                            //src={`img${index + 1}`}
-                            src={this.getImage(index)}
-                            key={index}
-                        />
-                    ))}
+                    {images
+                        .slice(0, this.state.length)
+                        .map((image, index) => (
+                            <img src={this.getImage(index)} key={index} />
+                        ))}
                 </Carousel>
                 <div className="project-gallery-buttons">
                     <button onClick={() => this.setState({ slideIndex: 0 })}>
