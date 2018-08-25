@@ -1,35 +1,44 @@
 import React from 'react'
 import img1 from '../img/img1.jpg'
+import img2 from '../img/img2.jpg'
+import img3 from '../img/img3.jpg'
 import Gallery from 'react-grid-gallery'
 
 const IMAGES = [
     {
         src: img1,
+        alt: 'Website project image',
         thumbnail: img1,
         thumbnailWidth: 320,
         thumbnailHeight: 174,
-        isSelected: true,
+        tags: [{ value: 'php', title: 'php' }],
         caption: 'A responsive website built by Me for abc with this and this',
     },
     {
-        src: 'https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg',
-        thumbnail:
-            'https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg',
+        src: img2,
+
+        alt: 'Website project image',
+        thumbnail: img2,
         thumbnailWidth: 320,
         thumbnailHeight: 212,
         tags: [
-            { value: 'Ocean', title: 'Ocean' },
-            { value: 'People', title: 'People' },
+            { value: 'html', title: 'html' },
+            { value: 'css', title: 'css' },
         ],
-        caption: 'Boats (Jeshu John - designerspics.com)',
+        caption:
+            'Website for a local non-profit cinema club. Old cinema chairs and dim-lighting inspired the choice of colors.',
     },
 
     {
-        src: 'https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg',
-        thumbnail:
-            'https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg',
+        src: img3,
+        alt: 'Website project image',
+        thumbnail: img3,
         thumbnailWidth: 320,
         thumbnailHeight: 212,
+        tags: [
+            { value: 'html', title: 'html' },
+            { value: 'css', title: 'css' },
+        ],
     },
 ]
 

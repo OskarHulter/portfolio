@@ -2,9 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import SocialButtons from '../components/socialbuttons'
 
-const blue = ''
-
-const ContactWrapper = styled.div`
+const ContactWrapper = styled.section`
     display: grid;
     width: 100vw;
     height: 100vh;
