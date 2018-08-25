@@ -13,17 +13,45 @@ const LandingPageWrapper = styled.section`
     height: 100vh;
     width: 100vw;
 `
+const OskarHulter = styled.div`
+    font-size: 23vmin;
+    letter-spacing: 1vmin;
+    line-height: 17vmin;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+`
+
+const TitleWrapper = styled.div`
+    font-size: 20vmin;
+    color: #f05075;
+    font-family: 'Cutive Mono', monospace;
+    line-height: 15vmin;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vmin;
+`
+const SubTitle = styled.h2`
+    color: #2ea1ab;
+    font-size: 5vmin;
+    filter: brightness(130%);
+    font-family: 'Cutive Mono', monospace;
+    line-height: 3vmin;
+    padding-bottom: 2vmin;
+    letter-spacing: 0.5vmin;
+`
 
 const IndexPage = () => (
     <LandingPageWrapper>
-        <div className="page-title">
-            <div className="oskar-title">
+        <TitleWrapper>
+            <OskarHulter>
                 <h1 className="name">Oskar</h1>
                 <h1 className="name">Hulter</h1>
-            </div>
+            </OskarHulter>
 
-            <h2 className="page-subtitle">fullstack web developer</h2>
-        </div>
+            <SubTitle>fullstack web developer</SubTitle>
+        </TitleWrapper>
         <MainButtons />
         <SocialButtons />
     </LandingPageWrapper>

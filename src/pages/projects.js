@@ -3,6 +3,7 @@ import img1 from '../img/img1.jpg'
 import img2 from '../img/img2.jpg'
 import img3 from '../img/img3.jpg'
 import Gallery from 'react-grid-gallery'
+import styled from 'styled-components'
 
 const IMAGES = [
     {
@@ -16,7 +17,6 @@ const IMAGES = [
     },
     {
         src: img2,
-
         alt: 'Website project image',
         thumbnail: img2,
         thumbnailWidth: 320,
@@ -39,13 +39,42 @@ const IMAGES = [
             { value: 'html', title: 'html' },
             { value: 'css', title: 'css' },
         ],
+        caption: 'Something for someone',
+    },
+    {
+        src: img3,
+        alt: 'Website project image',
+        thumbnail: img3,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [
+            { value: 'html', title: 'html' },
+            { value: 'css', title: 'css' },
+        ],
+    },
+    {
+        src: img3,
+        alt: 'Website project image',
+        thumbnail: img3,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [
+            { value: 'html', title: 'html' },
+            { value: 'css', title: 'css' },
+        ],
     },
 ]
 
+const GalleryWrapper = styled.section`
+    background-color: #2ea1ab;
+    height: 100vh;
+    width: 100vw;
+`
+
 const ProjectPage = () => (
-    <section className="project-gallery">
+    <GalleryWrapper>
         <Gallery images={IMAGES} />
-    </section>
+    </GalleryWrapper>
 )
 
 export default ProjectPage

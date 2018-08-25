@@ -42,56 +42,6 @@ button:hover:after {
     transition: 800ms ease all;
 }
 
-.page-title {
-    font-size: 20vmin;
-    color: var(--red);
-    font-family: 'Cutive Mono', monospace;
-    line-height: 15vmin;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5vmin;
-}
-.oskar-title {
-    font-size: 23vmin;
-    letter-spacing: 1vmin;
-    line-height: 17vmin;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.page-subtitle {
-    color: var(--teal);
-    font-size: 5vmin;
-    filter: brightness(130%);
-    font-family: 'Cutive Mono', monospace;
-    line-height: 3vmin;
-    padding-bottom: 2vmin;
-    letter-spacing: 0.5vmin;
-}
-
-.content p {
-    font-size: 1.2em;
-    line-height: 1.7;
-    margin: 1.5em 0;
-}
-
-.landing-page {
-}
-
-.project-gallery {
-    background-color: var(--teal);
-    height: 100vh;
-    width: 100vw;
-}
-
-.container-social {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5vmin;
-}
-
 /* media querries for small and big screens */
 @media screen and (min-width: 600px) {
 }
