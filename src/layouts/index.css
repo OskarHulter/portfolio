@@ -86,11 +86,6 @@ button:hover:after {
     letter-spacing: 0.5vmin;
 }
 
-.contact-page {
-    display: gird;
-    color: var(--blue);
-}
-
 .content p {
     font-size: 1.2em;
     line-height: 1.7;
@@ -130,14 +125,14 @@ button:hover:after {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
-
+/*
 .contact-page {
     background-color: var(--teal);
     height: 100vh;
     width: 100vw;
     display: grid;
 }
-
+*/
 .slider-slide {
     display: block;
     width: auto;
