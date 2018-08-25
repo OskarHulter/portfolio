@@ -113,5 +113,5 @@ div.image{
 Now you can just set your div size to whatever you want and not only will the image keep its aspect ratio it will also be centralized both vertically and horizontally within the div. Just don't forget to set the sizes on the css since divs don't have the width/height attribute on the tag itself.
 
 This approach is different than setecs answer, using this the image area will be constant and defined by you (leaving empty spaces either horizontally or vertically depending on the div size and image aspect ratio), while setecs answer will get you a box that exactly the size of the scaled image (without empty spaces).
-
+hmm, function orderTotal  
 */

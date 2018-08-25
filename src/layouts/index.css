@@ -28,6 +28,7 @@ button {
     font-family: 'Open Sans', sans-serif;
     outline: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .button-social {
@@ -36,9 +37,6 @@ button {
     width: 14vmin;
     padding: 1.2vmin;
     border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     margin: 3vmin;
     font-size: 2vmin;
 }
@@ -89,14 +87,11 @@ button:hover:after {
 }
 
 .contact-page {
-    display: flex;
-    flex-direction: column;
+    display: gird;
     color: var(--blue);
-    justify-content: center;
-    align-items: center;
 }
 
-.page-text {
+.content p {
     font-size: 1.2em;
     line-height: 1.7;
     margin: 1.5em 0;
@@ -132,6 +127,8 @@ button:hover:after {
     height: 100vh;
     width: 100vw;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .contact-page {
@@ -143,17 +140,14 @@ button:hover:after {
 
 .slider-slide {
     display: block;
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 80%;
 }
 .slider-frame {
     width: 800px;
     display: grid;
 }
-.img__selected {
-    border: red;
-    width: 100px;
-    height: 100px;
+.slider-frame img {
 }
 
 .container-social {
