@@ -1,24 +1,25 @@
 import React from 'react'
-import scrollToComponent from 'react-scroll-to-component'
+import jump from 'jump.js'
 
 const MainButtons = () => (
     <div className="button-container">
         <div>
             <button
                 className="main-button"
-                onClick={() =>
-                    scrollToComponent(this.gallery, {
-                        offset: 0,
-                        align: 'top',
-                        duration: 1500,
-                    })
-                }
+                onClick={() => {
+                    jump('.project-gallery')
+                }}
             >
                 <div className="main-button-text">projects</div>
             </button>
         </div>
         <div>
-            <button className="main-button">
+            <button
+                className="main-button"
+                onClick={() => {
+                    jump('.about-page')
+                }}
+            >
                 <div className="main-button-text">about</div>
             </button>
         </div>

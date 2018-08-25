@@ -7,15 +7,6 @@ import img4 from '../img/img4.png'
 import img5 from '../img/img5.png'
 import img6 from '../img/img6.png'
 import Carousel from 'nuka-carousel'
-/* 
-{
-    const projectName: 'stressless.productions',
-    const description = 'Platform for downloading royalty-free music. Under Construction',
-    const technologies used = 'html'
-
-}
-*/
-const imageDescription1 = ''
 
 const projectImages = [
     'Fyrisbiografens Vänner',

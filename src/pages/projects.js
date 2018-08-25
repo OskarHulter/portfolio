@@ -2,13 +2,7 @@ import React from 'react'
 import Gallery from '../components/gallery'
 
 const ProjectPage = () => (
-    <section
-        className="gallery"
-        ref={section => {
-            this.gallery = section
-        }}
-    >
-        gallery
+    <section className="project-gallery">
         <Gallery />
     </section>
 )

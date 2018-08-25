@@ -113,30 +113,42 @@ button:hover:after {
     width: 100vw;
 }
 
-.gallery {
+.project-gallery {
     background-color: var(--teal);
     height: 100vh;
     width: 100vw;
 }
+.project-gallery img {
+    height: 100%;
+}
 
 .gallery-carousel {
+    height: 50vh;
+    width: 100vw;
 }
 
 .about-page {
     background-color: var(--blue);
     height: 100vh;
     width: 100vw;
+    display: grid;
 }
 
 .contact-page {
     background-color: var(--teal);
     height: 100vh;
     width: 100vw;
+    display: grid;
 }
 
-img {
-    width: 100%;
+.slider-slide {
+    display: block;
+    width: 80%;
     height: auto;
+}
+.slider-frame {
+    width: 800px;
+    display: grid;
 }
 .img__selected {
     border: red;
