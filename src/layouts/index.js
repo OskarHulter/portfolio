@@ -1,13 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
-import Header from '../components/header'
 import './reset.css'
 import './index.css'
 import AboutPage from '../pages/about'
-import ContactPage from '../pages/contact'
 import ProjectPage from '../pages/projects'
+import Footer from '../components/Footer'
 
 const Layout = ({ children, data }) => (
     <div>
@@ -21,7 +19,7 @@ const Layout = ({ children, data }) => (
         <div>{children()}</div>
         <ProjectPage />
         <AboutPage />
-        <ContactPage />
+        <Footer />
     </div>
 )
 

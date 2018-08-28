@@ -73,6 +73,7 @@ const GalleryWrapper = styled.section`
 
 const ProjectPage = () => (
     <GalleryWrapper>
+        <div className="project-gallery" />
         <Gallery images={IMAGES} />
     </GalleryWrapper>
 )

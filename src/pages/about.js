@@ -33,7 +33,7 @@ const AboutPage = () => (
         </div>
         <SkillText>
             <h1 className="title-main">programmer:</h1>
-            *Passion for modern web. Specializing in JavaScript but enjoys
+            Passion for modern web. Specializing in JavaScript but enjoys
             learning other technologies. Java C PHP Methodologies & Best
             practices: Agile LEAN Kanban Mobile-first Bachelor's in Systems
             Science (LTU, 2018).
@@ -41,11 +41,9 @@ const AboutPage = () => (
         <SkillText>html5 css3 javascript react redux gatsby</SkillText>
         <TextContent>
             <h1 className="title">person:</h1>
-            My personality type is INTP (big 5 psychological test). My other
-            great passions are music, strategy games & hiking. My favorite
-            topics include modern javascript, testing, functional & declarative
-            programmering. Some of my favorite TOOLS, LEARNING RESOURCES,
-            HOBBIES, COLLECTIBLES
+            Other great passions are music, strategy games & hiking. My favorite
+            technical topics include modern javascript, testing, functional &
+            declarative programmering.
         </TextContent>
     </AboutWrapper>
 )
