@@ -8,7 +8,7 @@ import { FaJsSquare } from 'react-icons/fa'
 const AboutWrapper = styled.section`
     display: grid;
     background-color: #25008b;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -44,6 +44,7 @@ const AboutPage = () => (
             Other great passions are music, strategy games & hiking. My favorite
             technical topics include modern javascript, testing, functional &
             declarative programmering.
+            <a href="mailto:oskarhulter@gmail.com">oskarhulter@gmail.com</a>
         </TextContent>
     </AboutWrapper>
 )

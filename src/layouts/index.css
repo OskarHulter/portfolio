@@ -8,6 +8,7 @@
 body {
     color: var(--teal);
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--blue);
 }
 
 button:hover {

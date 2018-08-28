@@ -4,7 +4,7 @@ import { FaEnvelope } from 'react-icons/fa'
 const MailButton = () => (
     <a href="mailto:oskarhulter@gmail.com">
         <button className="button-social">
-            <FaEnvelope size={30} />
+            <FaEnvelope size={17} />
         </button>
     </a>
 )

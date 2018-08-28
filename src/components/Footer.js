@@ -3,15 +3,15 @@ import styled from 'styled-components'
 import SocialButtons from './SocialButtons'
 
 const FooterWrapper = styled.footer`
-    display: grid;
     width: 100vw;
-    height: 30vh;
+    height: 40px;
     color: #25008b;
     background-color: #2ea1ab;
+    border-top-left-radius: 20% 80%;
+    border-top-right-radius: 20% 80%;
 `
 const Footer = () => (
     <FooterWrapper>
-        <a href="mailto:oskarhulter@gmail.com">oskarhulter@gmail.com</a>
         <SocialButtons />
     </FooterWrapper>
 )
