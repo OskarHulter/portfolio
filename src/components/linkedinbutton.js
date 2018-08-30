@@ -14,10 +14,10 @@ function WidthChange(mq) {
 }
 
 function renderIcon() {
-    if (smallScreen) {
+    if (smallScreen == true) {
         return <FaLinkedinIn size={10} />
     } else {
-        return <FaLinkedinIn size={70} />
+        return <FaLinkedinIn size={20} />
     }
 }
 

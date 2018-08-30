@@ -1,8 +1,8 @@
 import React from 'react'
-import MailButton from './mailbutton'
-import GitButton from './gitbutton'
-import TwitterButton from './twitterbutton'
-import LinkedinButton from './linkedinbutton'
+import MailButton from './MailButton'
+import GitButton from './GitButton'
+import TwitterButton from './TwitterButton'
+import LinkedinButton from './LinkedinButton'
 import styled from 'styled-components'
 
 const SocialWrapper = styled.div`

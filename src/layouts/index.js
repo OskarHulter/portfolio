@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import './reset.css'
 import './index.css'
-import AboutPage from '../pages/about'
-import ProjectPage from '../pages/projects'
+import AboutPage from '../pages/About'
+import ProjectGallery from '../pages/Gallery'
 import Footer from '../components/Footer'
 
 const Layout = ({ children, data }) => (
@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
             ]}
         />
         <div>{children()}</div>
-        <ProjectPage />
+        <ProjectGallery />
         <AboutPage />
         <Footer />
     </div>

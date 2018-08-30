@@ -11,8 +11,8 @@ const AboutWrapper = styled.section`
     height: 200vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr 1fr;
     line-height: 1.5;
 `
 
@@ -25,27 +25,30 @@ const SkillText = styled.div`
 `
 const AboutPage = () => (
     <AboutWrapper>
+        <TextContent>
+            My passion for computer systems was ignited at the ripe age of six.
+            I have fond memories of the note that my step-father wrote,
+            explaining the steps to launch Warcraft 2 from MS-DOS. A lot has
+            changed since then but my passion has remained. Today I focus on
+            modern web development specializing in JavaScript but I always enjoy
+            learning other technologies. I enjoy working across the whole stack.
+            I have previous experience of C, C# Java & php. Methodologies & Best
+            practices: Agile LEAN Kanban Mobile-first Bachelor's in Systems
+            Science (LTU, 2018).
+        </TextContent>
+        <TextContent>
+            Other great passions are music, strategy games & hiking. My favorite
+            technical topics include modern javascript, testing, functional &
+            declarative programmering.
+            <a href="mailto:oskarhulter@gmail.com">oskarhulter@gmail.com</a>
+        </TextContent>
+        <SkillText>html5 css3 javascript react redux gatsby</SkillText>
         <div>
             <FaHtml5 size={17} />
             <FaCss3Alt size={17} />
             <FaJsSquare size={17} />
             <FaReact size={17} />
         </div>
-        <SkillText>
-            <h1 className="title-main">programmer:</h1>
-            Passion for modern web. Specializing in JavaScript but enjoys
-            learning other technologies. Java C PHP Methodologies & Best
-            practices: Agile LEAN Kanban Mobile-first Bachelor's in Systems
-            Science (LTU, 2018).
-        </SkillText>
-        <SkillText>html5 css3 javascript react redux gatsby</SkillText>
-        <TextContent>
-            <h1 className="title">person:</h1>
-            Other great passions are music, strategy games & hiking. My favorite
-            technical topics include modern javascript, testing, functional &
-            declarative programmering.
-            <a href="mailto:oskarhulter@gmail.com">oskarhulter@gmail.com</a>
-        </TextContent>
     </AboutWrapper>
 )
 

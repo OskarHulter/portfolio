@@ -12,7 +12,7 @@ const IMAGES = [
         thumbnail: img1,
         thumbnailWidth: 320,
         thumbnailHeight: 174,
-        tags: [{ value: 'php', title: 'php' }],
+        tags: [{ value: 'php', title: 'Programming Language' }],
         caption: 'A responsive website built by Me for abc with this and this',
     },
     {
@@ -71,11 +71,11 @@ const GalleryWrapper = styled.section`
     width: 100vw;
 `
 
-const ProjectPage = () => (
+const ProjectGallery = () => (
     <GalleryWrapper>
         <div className="project-gallery" />
         <Gallery images={IMAGES} />
     </GalleryWrapper>
 )
 
-export default ProjectPage
+export default ProjectGallery
