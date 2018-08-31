@@ -29,11 +29,10 @@ button {
 
 .button-social {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 14vmin;
-    width: 14vmin;
-    padding: 1.2vmin;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
-    margin: 3vmin;
+    margin: 7px;
     font-size: 2vmin;
 }
 

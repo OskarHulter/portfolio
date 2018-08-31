@@ -20,7 +20,6 @@ const OskarHulter = styled.div`
     align-items: center;
     flex-direction: column;
 `
-
 const TitleWrapper = styled.div`
     font-size: 20vmin;
     color: #f05075;

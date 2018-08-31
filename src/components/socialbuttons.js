@@ -8,6 +8,7 @@ import styled from 'styled-components'
 const SocialWrapper = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
 `
 
 const SocialButtons = () => (

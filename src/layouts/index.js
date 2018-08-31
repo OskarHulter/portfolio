@@ -6,9 +6,16 @@ import './index.css'
 import AboutPage from '../pages/About'
 import ProjectGallery from '../pages/Gallery'
 import Footer from '../components/Footer'
+import styled from 'styled-components'
+
+const GlobalWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
 
 const Layout = ({ children, data }) => (
-    <div>
+    <GlobalWrapper>
         <Helmet
             title={data.site.siteMetadata.title}
             meta={[
@@ -20,7 +27,7 @@ const Layout = ({ children, data }) => (
         <ProjectGallery />
         <AboutPage />
         <Footer />
-    </div>
+    </GlobalWrapper>
 )
 
 Layout.propTypes = {

@@ -7,47 +7,66 @@ import { FaJsSquare } from 'react-icons/fa'
 
 const AboutWrapper = styled.section`
     display: grid;
-    background-color: #25008b;
-    height: 200vh;
+    min-height: 200vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5fr 1fr;
-    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.7;
 `
 
 const TextContent = styled.div`
-    margin: 1.5em 0;
+    font-size: 1.2em;
+    margin: 1.5em 40px;
+    max-width: 700px;
 `
 const SkillText = styled.div`
     margin: 1.5em 0;
     font-size: 0.5em;
 `
+const TextTitle = styled.h2`
+    color: #2ea1ab;
+    font-size: 2em;
+    filter: brightness(130%);
+    font-family: 'Cutive Mono', monospace;
+`
 const AboutPage = () => (
     <AboutWrapper>
         <TextContent>
-            My passion for computer systems was ignited at the ripe age of six.
-            I have fond memories of the note that my step-father wrote,
-            explaining the steps to launch Warcraft 2 from MS-DOS. A lot has
-            changed since then but my passion has remained. Today I focus on
-            modern web development specializing in JavaScript but I always enjoy
-            learning other technologies. I enjoy working across the whole stack.
-            I have previous experience of C, C# Java & php. Methodologies & Best
+            <TextTitle>My Story</TextTitle>
+            My passion for computers was ignited at the age of six. I remember
+            the note my step-father wrote, explaining the steps to launch
+            Warcraft 2 from MS-DOS, with nostalgia.
+            <br />
+            <br />
+            A lot has changed since, but my passion remained.
+            <br />
+            <br />
+            After a time of pursuing my other passions I realized finished my
+            degree in Systems Science at Luleå Tekniska Universitet in 2018.
+            Since then I've focused my atention on modern web development .
+        </TextContent>
+        <TextContent>
+            <TextTitle>My Skills</TextTitle>
+            Today I focus on modern web development, specializing in JavaScript.
+            I enjoy working across the whole stack and always try to choose the
+            right tool for the job. That said, I do have a few favorites. I have
+            previous experience of C, C# Java & php. Methodologies & Best
             practices: Agile LEAN Kanban Mobile-first Bachelor's in Systems
             Science (LTU, 2018).
         </TextContent>
         <TextContent>
+            <TextTitle>Personal Life</TextTitle>
             Other great passions are music, strategy games & hiking. My favorite
             technical topics include modern javascript, testing, functional &
             declarative programmering.
-            <a href="mailto:oskarhulter@gmail.com">oskarhulter@gmail.com</a>
         </TextContent>
-        <SkillText>html5 css3 javascript react redux gatsby</SkillText>
+        <TextContent>html5 css3 javascript react redux gatsby</TextContent>
         <div>
-            <FaHtml5 size={17} />
-            <FaCss3Alt size={17} />
-            <FaJsSquare size={17} />
-            <FaReact size={17} />
+            <FaHtml5 size={32} />
+            <FaCss3Alt size={32} />
+            <FaJsSquare size={32} />
+            <FaReact size={32} />
         </div>
     </AboutWrapper>
 )
