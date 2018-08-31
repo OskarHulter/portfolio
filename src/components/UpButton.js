@@ -10,6 +10,7 @@ const StyledUpButton = styled.button`
     border-radius: 50%;
     margin: 50px;
     padding-top: 5px;
+    background-color: #f05075;
 `
 
 const UpButton = () => (

@@ -27,15 +27,6 @@ button {
     text-align: center;
 }
 
-.button-social {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 55px;
-    width: 55px;
-    border-radius: 50%;
-    margin: 7px;
-    font-size: 2vmin;
-}
-
 button:hover:before,
 button:hover:after {
     width: 100%;

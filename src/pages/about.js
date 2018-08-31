@@ -96,33 +96,34 @@ const AboutPage = () => (
             Full list of technologies available at the bottom of the page.
         </TextContent>
         <TextContent>
-            <TextTitle>Personal Life</TextTitle>
+            <TextTitle>My Personality</TextTitle>
             My nature is very analytical, which is reflected in my three biggest
             interests: music, strategy games & programming.
             <br />
             As with any personaliy trait; an analytical mindset brings both
-            positive and negative. I really enjoy the process of programming,
-            working on my craft, experiencing new realizations and the
-            fulfillment of solving problems efficiently. I am always looking for
-            another angle, to find new insights. The negative is that I am
-            susceptible to analysis paralysis if the most efficient solution is
-            unclear. I try to remedy this by acknowledging that no solution has
-            to be perfect from the start, and that even if you start building
-            something that isn't the most efficinet solution, you can still
-            learn more about what you need than if you sit around and think.
-            Even though I am an introvert, I am still very talkative and enjoy
-            working with other people, especially when we are learning together.
-            To me, life is one big learning experience and it is more fulfulling
-            to share it. One of my core values is to always leave my ego at the
-            door and take every opportunity to improve. This means that I really
-            enjoy getting feedback from others, even if it could be construed as
-            critizism. Other great passions are music, strategy games & hiking.
-            I really believe in the power of expanding your comfort-zone by
-            taking on challanges that forces you to grow. My favorite technical
-            topics include modern javascript, testing, functional & declarative
-            programmering. I love customizing my development experience to
-            improve my productivity. I use VS code which has a great selection
-            of extensions, my absolute favorite being VIM.
+            opportunities and challenges. It means that I really enjoy the
+            process of programming, working on my craft, experiencing new
+            realizations and the fulfillment of solving problems efficiently. I
+            am always looking for another angle, to find new insights. The
+            challenge is that I am susceptible to analysis paralysis if the most
+            efficient solution is unclear. I try to remedy this by acknowledging
+            that no solution has to be perfect from the start, and that even if
+            you start building something that isn't the most efficinet solution,
+            you can still learn more about what you need than if you sit around
+            and think. Even though I am an introvert, I am still very talkative
+            and enjoy working with other people, especially when we are learning
+            together. To me, life is one big learning experience and it is more
+            fulfulling to share it. One of my core values is to always leave my
+            ego at the door and take every opportunity to improve. This means
+            that I really enjoy getting feedback from others, even if it could
+            be construed as critizism. Other great passions are music, strategy
+            games & hiking. I really believe in the power of expanding your
+            comfort-zone by taking on challanges that forces you to grow. My
+            favorite technical topics include modern javascript, testing,
+            functional & declarative programmering. I love customizing my
+            development experience to improve my productivity. I use VS code
+            which has a great selection of extensions, my absolute favorite
+            being VIM.
         </TextContent>
         <SkillText>
             front-end: html5 css3 javascript react redux gatsby back-end:
