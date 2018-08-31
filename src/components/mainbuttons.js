@@ -19,14 +19,14 @@ const MainButtons = () => (
     <ButtonWrapper>
         <MainButton
             onClick={() => {
-                jump('.project-gallery')
+                jump('.gallery-jump-point')
             }}
         >
             projects
         </MainButton>
         <MainButton
             onClick={() => {
-                jump('.title-main')
+                jump('.about-jump-point')
             }}
         >
             about

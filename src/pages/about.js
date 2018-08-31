@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import UpButton from '../components/UpButton'
 import { FaReact } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { FaJsSquare } from 'react-icons/fa'
-import { FaArrowAltCircleUp } from 'react-icons/fa'
 
 const AboutWrapper = styled.section`
     display: grid;
@@ -23,7 +23,7 @@ const TextContent = styled.div`
 `
 const SkillText = styled.div`
     margin: 1.5em 0;
-    font-size: 0.5em;
+    font-size: 0.7em;
 `
 const TextTitle = styled.h2`
     color: #2ea1ab;
@@ -31,17 +31,11 @@ const TextTitle = styled.h2`
     filter: brightness(130%);
     font-family: 'Cutive Mono', monospace;
 `
-const UpButton = styled.button`
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    margin: 50px;
-    padding-top: 5px;
-`
+
 const AboutPage = () => (
     <AboutWrapper>
         <TextContent>
+            <div className="about-jump-point" />
             <TextTitle>My Story</TextTitle>
             My passion for computers started at the age of six. Specifically,
             around the time my step-father had to write a note, explaining the
@@ -85,8 +79,12 @@ const AboutPage = () => (
             and readable is a fulfulling challenge that I try to get better at
             each day.
             <br />
-            The methodologies I embrace in my private work are Agile, Lean
-            Software Development & Kanban.
+            Besides programming I really enjoy doing design and UX work as well.
+            I don't mind database management, but in a lot of cases it makes
+            sense to delegate that to some third party. This allows me to focus
+            on delivering an awesome user experience. The methodologies I
+            embrace in my private work are Agile, Lean Software Development &
+            Kanban.
             <br />
             My favorite JS tools are react, redux, webpack, styled-components &
             gatsby.
@@ -99,11 +97,37 @@ const AboutPage = () => (
         </TextContent>
         <TextContent>
             <TextTitle>Personal Life</TextTitle>
-            Other great passions are music, strategy games & hiking. My favorite
-            technical topics include modern javascript, testing, functional &
-            declarative programmering.
+            My nature is very analytical, which is reflected in my three biggest
+            interests: music, strategy games & programming.
+            <br />
+            As with any personaliy trait; an analytical mindset brings both
+            positive and negative. I really enjoy the process of programming,
+            working on my craft, experiencing new realizations and the
+            fulfillment of solving problems efficiently. I am always looking for
+            another angle, to find new insights. The negative is that I am
+            susceptible to analysis paralysis if the most efficient solution is
+            unclear. I try to remedy this by acknowledging that no solution has
+            to be perfect from the start, and that even if you start building
+            something that isn't the most efficinet solution, you can still
+            learn more about what you need than if you sit around and think.
+            Even though I am an introvert, I am still very talkative and enjoy
+            working with other people, especially when we are learning together.
+            To me, life is one big learning experience and it is more fulfulling
+            to share it. One of my core values is to always leave my ego at the
+            door and take every opportunity to improve. This means that I really
+            enjoy getting feedback from others, even if it could be construed as
+            critizism. Other great passions are music, strategy games & hiking.
+            I really believe in the power of expanding your comfort-zone by
+            taking on challanges that forces you to grow. My favorite technical
+            topics include modern javascript, testing, functional & declarative
+            programmering. I love customizing my development experience to
+            improve my productivity. I use VS code which has a great selection
+            of extensions, my absolute favorite being VIM.
         </TextContent>
-        <TextContent>html5 css3 javascript react redux gatsby</TextContent>
+        <SkillText>
+            front-end: html5 css3 javascript react redux gatsby back-end:
+            frameworks: tools:
+        </SkillText>
         <div>
             <FaHtml5 size={44} />
             <FaCss3Alt size={44} />
@@ -111,9 +135,7 @@ const AboutPage = () => (
             <FaReact size={44} />
         </div>
 
-        <UpButton>
-            <FaArrowAltCircleUp size={50} />
-        </UpButton>
+        <UpButton />
     </AboutWrapper>
 )
 

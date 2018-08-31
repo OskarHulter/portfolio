@@ -73,7 +73,7 @@ const GalleryWrapper = styled.section`
 
 const ProjectGallery = () => (
     <GalleryWrapper>
-        <div className="project-gallery" />
+        <div className="gallery-jump-point" />
         <Gallery images={IMAGES} />
     </GalleryWrapper>
 )

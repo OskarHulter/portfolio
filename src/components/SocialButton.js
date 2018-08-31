@@ -12,6 +12,7 @@ const StyledSocialButton = styled.button`
     border-radius: 50%;
     margin: 7px;
     font-size: 2vmin;
+    padding-top: 4px;
 `
 function renderLink(type) {
     const gitHubLink = 'https://github.com/OskarHulter'
@@ -33,13 +34,13 @@ function renderLink(type) {
 function renderIcon(type) {
     switch (type) {
         case 'gitHub':
-            return <FaGithub size={20} />
+            return <FaGithub size={28} />
         case 'email':
-            return <FaEnvelope size={17} />
+            return <FaEnvelope size={28} />
         case 'linkedIn':
-            return <FaLinkedinIn size={10} />
+            return <FaLinkedinIn size={28} />
         default:
-            return <FaTwitter size={17} />
+            return <FaTwitter size={28} />
     }
 }
 
