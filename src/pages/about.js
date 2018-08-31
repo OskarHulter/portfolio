@@ -34,23 +34,24 @@ const AboutPage = () => (
     <AboutWrapper>
         <TextContent>
             <TextTitle>My Story</TextTitle>
-            My passion for computers was ignited at the age of six. I remember
-            the note my step-father wrote, explaining the steps to launch
-            Warcraft 2 from MS-DOS, with nostalgia.
+            My passion for computers started at the age of six. Specifically,
+            around the time my step-father had to write a note, explaining the
+            steps to launch Warcraft 2 from MS-DOS.
             <br />
             <br />
-            A lot has changed since, but my passion remained.
+            A lot has changed since those days, but my passion remained.
             <br />
             <br />
-            After a time of pursuing my other passions I realized finished my
-            degree in Systems Science at Luleå Tekniska Universitet in 2018.
-            Since then I've focused my atention on modern web development .
+            After a time of pursuing other passions I realized my true calling.
+            I finished my degree in Systems Science at Luleå Tekniska
+            Universitet, 2018. Since then I've focused my atention on modern web
+            development.
         </TextContent>
         <TextContent>
             <TextTitle>My Skills</TextTitle>
             Today I focus on modern web development, specializing in JavaScript.
-            I enjoy working across the whole stack and always try to choose the
-            right tool for the job. That said, I do have a few favorites. I have
+            I enjoy working across the stack and always try to choose the right
+            tool for the job. That said, I do have a few favorites. I have
             previous experience of C, C# Java & php. Methodologies & Best
             practices: Agile LEAN Kanban Mobile-first Bachelor's in Systems
             Science (LTU, 2018).
