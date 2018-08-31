@@ -1,8 +1,5 @@
 import React from 'react'
-import MailButton from './MailButton'
-import GitButton from './GitButton'
-import TwitterButton from './TwitterButton'
-import LinkedinButton from './LinkedinButton'
+import SocialButton from './SocialButton'
 import styled from 'styled-components'
 
 const SocialWrapper = styled.div`
@@ -13,10 +10,10 @@ const SocialWrapper = styled.div`
 
 const SocialButtons = () => (
     <SocialWrapper>
-        <GitButton />
-        <MailButton />
-        <LinkedinButton />
-        <TwitterButton />
+        <SocialButton type="gitHub" />
+        <SocialButton type="email" />
+        <SocialButton type="linkedIn" />
+        <SocialButton type="twitter" />
     </SocialWrapper>
 )
 
