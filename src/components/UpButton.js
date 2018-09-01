@@ -16,7 +16,10 @@ const StyledUpButton = styled.button`
 const UpButton = () => (
     <StyledUpButton
         onClick={() => {
-            jump('.landing-jump-point')
+            jump('.landing-jump-point', {
+                duration: 500,
+                offset: -100,
+            })
         }}
     >
         <FaArrowUp size={42} />
