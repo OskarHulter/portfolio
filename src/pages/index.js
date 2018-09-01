@@ -42,8 +42,8 @@ const SubTitle = styled.h2`
 
 const IndexPage = () => (
     <LandingPageWrapper>
-        <div className="landing-jump-point" />
         <TitleWrapper>
+            <div className="landing-jump-point" />
             <OskarHulter>
                 <h1>Oskar</h1>
                 <h1>Hulter</h1>

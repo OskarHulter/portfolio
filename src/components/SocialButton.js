@@ -14,6 +14,7 @@ const StyledSocialButton = styled.button`
     font-size: 2vmin;
     padding-top: 4px;
 `
+
 function renderLink(type) {
     const gitHubLink = 'https://github.com/OskarHulter'
     const emailLink = 'mailto:oskarhulter@gmail.com'

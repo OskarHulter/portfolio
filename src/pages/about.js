@@ -50,10 +50,9 @@ const AboutPage = () => (
             </strong>
             <br />
             <br />
-            After a time of pursuing other passions, traveling and working
-            day-jobs I finally realized my true calling had been there all
-            along. In hindsight it's so obvious, but that realization was one of
-            the greatest releifs of my life.
+            After a time of pursuing other passions, studying, traveling and
+            working day-jobs I finally realized my true calling had been there
+            all along.
             <br />
             <br />
             I finished my bachelor's degree in Systems Science at Luleå Tekniska
@@ -69,9 +68,15 @@ const AboutPage = () => (
             <br />
             <em>Full list of technologies at the bottom of the page.</em>
             <br />
+            <div>
+                <FaHtml5 size={32} />
+                <FaCss3Alt size={32} />
+                <FaJsSquare size={32} />
+                <FaReact size={32} />
+            </div>
             <br />
-            I enjoy working across the stack and always try to choose the right
-            tool for the job. Design patterns, testing, software architecture &
+            I enjoy the whole stack and always try to choose the right tool for
+            the job. Design patterns, testing, software architecture &
             declarative/functional programming are the areas I am most excited
             about at the moment.
             <br />
@@ -79,62 +84,58 @@ const AboutPage = () => (
             and readable is a fulfulling challenge that I try to get better at
             each day.
             <br />
-            Besides programming I really enjoy doing design and UX work as well.
-            I don't mind database management, but in a lot of cases it makes
-            sense to delegate that to some third party. This allows me to focus
-            on delivering an awesome user experience. The methodologies I
-            embrace in my private work are Agile, Lean Software Development &
-            Kanban.
+            I really enjoy doing design and UX work as well. I don't mind
+            database management, but delegating that responsibility to a third
+            party allows me to focus on delivering an awesome user experience.
+            The methodologies I embrace in my work are Agile, Lean Software
+            Development & Kanban.
             <br />
             My favorite JS tools are react, redux, webpack, styled-components &
             gatsby.
             <br />
             Other programming languages that I have previous experience with are
             C, C#, Java & php.
-            <br />
-            <br />
-            Full list of technologies available at the bottom of the page.
         </TextContent>
         <TextContent>
             <TextTitle>My Personality</TextTitle>
-            My nature is very analytical, which is reflected in my three biggest
-            interests: music, strategy games & programming.
+            I have a very analytical mindset. This is reflected in my three
+            biggest interests: music, strategy games & programming.
             <br />
-            As with any personaliy trait; an analytical mindset brings both
-            opportunities and challenges. It means that I really enjoy the
-            process of programming, working on my craft, experiencing new
-            realizations and the fulfillment of solving problems efficiently. I
-            am always looking for another angle, to find new insights. The
-            challenge is that I am susceptible to analysis paralysis if the most
-            efficient solution is unclear. I try to remedy this by acknowledging
-            that no solution has to be perfect from the start, and that even if
-            you start building something that isn't the most efficinet solution,
-            you can still learn more about what you need than if you sit around
-            and think. Even though I am an introvert, I am still very talkative
-            and enjoy working with other people, especially when we are learning
-            together. To me, life is one big learning experience and it is more
-            fulfulling to share it. One of my core values is to always leave my
-            ego at the door and take every opportunity to improve. This means
-            that I really enjoy getting feedback from others, even if it could
-            be construed as critizism. Other great passions are music, strategy
-            games & hiking. I really believe in the power of expanding your
-            comfort-zone by taking on challanges that forces you to grow. My
-            favorite technical topics include modern javascript, testing,
-            functional & declarative programmering. I love customizing my
-            development experience to improve my productivity. I use VS code
-            which has a great selection of extensions, my absolute favorite
-            being VIM.
+            <br />
+            As with any personaliy trait, an analytical mindset brings both
+            opportunities and challenges. I really enjoy the process of
+            learning, working on my craft, experiencing new realizations and the
+            fulfillment of solving problems efficiently. I am always looking for
+            another angle, to find new insights.
+            <br />
+            <br />
+            The challenge is that I am susceptible to analysis paralysis. I try
+            to remedy this by acknowledging that no solution has to be perfect
+            from the start. Even if you start building something that isn't the
+            most efficient solution, you can still learn more about what you
+            need than if you just sit around and think.
+            <br />
+            <br />
+            Even though I am an introvert, I am still very talkative and enjoy
+            working with other people, especially when we are learning together.
+            One of my core values is to always leave my ego at the door and take
+            every opportunity to improve. This means that I really enjoy getting
+            feedback from others, even if it could be construed as critizism.
+            <br />
+            <br />
+            I love customizing my development experience to improve my
+            productivity. I use VS code which has a great selection of
+            extensions, my absolute favorite being VIM.
+            <br />
+            <br />
+            Contact me at:
+            <br />
+            oskarhulter@gmail.com
         </TextContent>
         <SkillText>
             front-end: html5 css3 javascript react redux gatsby back-end:
             frameworks: tools:
         </SkillText>
-        <div>
-            <FaHtml5 size={44} />
-            <FaCss3Alt size={44} />
-            <FaJsSquare size={44} />
-            <FaReact size={44} />
-        </div>
 
         <UpButton />
     </AboutWrapper>

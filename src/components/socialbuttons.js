@@ -6,6 +6,7 @@ const SocialWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100vw;
 `
 
 const SocialButtons = () => (

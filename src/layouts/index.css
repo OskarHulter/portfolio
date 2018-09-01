@@ -33,8 +33,13 @@ button:hover:after {
     transition: 800ms ease all;
 }
 
-/* media querries for small and big screens */
+/*
 @media screen and (min-width: 600px) {
 }
 @media screen and (min-width: 1440px) {
+}
+*/
+
+em {
+    font-style: italic;
 }
