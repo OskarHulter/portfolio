@@ -1,10 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
+import { css } from 'styled-components'
 import UpButton from '../components/UpButton'
 import { FaReact } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { FaJsSquare } from 'react-icons/fa'
+
+const sizes = {
+    desktop: 992,
+    tablet: 768,
+    phone: 650,
+}
+
+const media = Object.keys(sizes).reduce((acc, label) => {
+    acc[label] = (...args) => css`
+        @media (max-width: ${sizes[label] / 16}em) {
+            ${css(...args)};
+        }
+    `
+
+    return acc
+}, {})
 
 const AboutWrapper = styled.section`
     display: grid;
@@ -20,10 +37,14 @@ const TextContent = styled.div`
     margin: 1.5em 40px;
     max-width: 700px;
     text-align: center;
+    ${media.desktop`font-size: 1.2em;`}
+    ${media.tablet`font-size: 0.8em;`}
+    ${media.phone`font-size: 0.7em;`}
 `
-const SkillText = styled.div`
+const SkillText = styled.p`
     margin: 1.5em 0;
-    font-size: 0.7em;
+    font-size: 0.6em;
+    text-align: center;
 `
 const TextTitle = styled.h2`
     color: #2ea1ab;
@@ -73,7 +94,7 @@ const AboutPage = () => (
                 <FaJsSquare size={32} />
                 <FaReact size={32} />
             </div>
-            <em>(Full skill list at the bottom of the page)</em>
+            <em>Full skill list at the bottom of the page.</em>
             <br />
             <br />
             I enjoy the whole stack and always try to choose the right tool for
@@ -113,37 +134,37 @@ const AboutPage = () => (
             another angle, to find new insights.
             <br />
             <br />
-            The challenge is that I am susceptible to analysis paralysis. I try
-            to remedy this by acknowledging that no solution has to be perfect
-            from the start. Even if you start building something that isn't the
-            most efficient solution, you can still learn more about what you
-            need than if you just sit around and think.
+            My primary challenge is that I am susceptible to analysis paralysis.
+            I try to remedy this by acknowledging that no solution has to be
+            perfect from the start. Even if you start building something that
+            isn't the most efficient solution, you can still learn more about
+            what you need than if you just sit around and think.
             <br />
             <br />
-            Even though I am an introvert, I am still very talkative and enjoy
-            working with other people, especially when we are learning together.
-            One of my core values is to always leave my ego at the door and take
-            every opportunity to improve. This means that I value feedback from
-            others, even if it could be construed as critizism.
+            I enjoy working with other people & I am very talkative for being an
+            introvert. One of my core values is to always leave my ego at the
+            door and take every opportunity to improve. This means that I value
+            feedback from others, even if it could be construed as critizism.
             <br />
             <br />
-            I love customizing my development experience to improve my
-            productivity. I use VS code which has a great selection of
-            extensions, my absolute favorite being VIM.
+            Currently I am developing a website called stressless.productions
+            that will host royalty-free music. It is still under construction
+            but I will post more info when I've come a bit further along. I am
+            also in the process of creating a webshop called festivaltent.shop
+            offering tents with fun patterns targeted at music festivals.
             <br />
             <br />
-            Contact me at:
+            Please feel free to contact me at:
             <br />
-            oskarhulter@gmail.com
+            <TextTitle>oskarhulter@gmail.com</TextTitle>
         </TextContent>
         <SkillText>
+            <TextTitle>skill list</TextTitle>
             front-end: html5 css3 javascript react redux gatsby
             <br />
-            back-end:
+            back-end: Node Express MongoDB MySQL GraphQL REST C C# Java php
             <br />
-            frameworks:
-            <br />
-            tools:
+            misc: git webpack jest wireshark nmap packet tracer
         </SkillText>
 
         <UpButton />
