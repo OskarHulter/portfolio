@@ -10,8 +10,8 @@ import styled from 'styled-components'
 
 const GalleryWrapper = styled.section`
     background-color: #2ea1ab;
-    min-height: 100vh;
-    width: 99vw;
+    min-height: 20vh;
+    width: 95%;
 `
 const IMAGES = [
     {
@@ -79,7 +79,7 @@ const ProjectGallery = () => (
             images={IMAGES}
             rowHeight={300}
             enableImageSelection={false}
-            margin={0}
+            margin={3}
         />
     </GalleryWrapper>
 )

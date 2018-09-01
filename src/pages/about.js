@@ -1,47 +1,33 @@
 import React from 'react'
 import styled from 'styled-components'
-import { css } from 'styled-components'
 import UpButton from '../components/UpButton'
 import { FaReact } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { FaJsSquare } from 'react-icons/fa'
 
-const sizes = {
-    desktop: 992,
-    tablet: 768,
-    phone: 650,
-}
-
-const media = Object.keys(sizes).reduce((acc, label) => {
-    acc[label] = (...args) => css`
-        @media (max-width: ${sizes[label] / 16}em) {
-            ${css(...args)};
-        }
-    `
-
-    return acc
-}, {})
-
 const AboutWrapper = styled.section`
     display: grid;
     min-height: 200vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.7;
 `
 const TextContent = styled.div`
-    font-size: 1.2em;
     margin: 1.5em 40px;
     max-width: 700px;
     text-align: center;
-    ${media.desktop`font-size: 1.2em;`}
-    ${media.tablet`font-size: 0.8em;`}
-    ${media.phone`font-size: 0.7em;`}
+    font-size: 0.9em;
+    @media (min-width: 768px) {
+        font-size: 1em;
+    }
+    @media (min-width: 992px) {
+        font-size: 1.2em;
+    }
 `
-const SkillText = styled.p`
+const SkillText = styled.div`
     margin: 1.5em 0;
     font-size: 0.6em;
     text-align: center;

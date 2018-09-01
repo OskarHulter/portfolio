@@ -10,7 +10,7 @@ const LandingPageWrapper = styled.header`
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 2fr 1fr;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 `
 const OskarHulter = styled.div`
     font-size: 23vmin;
