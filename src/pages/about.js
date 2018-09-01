@@ -37,36 +37,35 @@ const AboutPage = () => (
         <TextContent>
             <div className="about-jump-point" />
             <TextTitle>My Story</TextTitle>
-            My passion for computers started at the age of six. Specifically,
-            around the time my step-father had to write a note, explaining the
-            steps to launch Warcraft 2 from MS-DOS. For me, that note was a
-            portal to another world.
+            My passion for computers started at the age of six.
+            <br />
+            Specifically, around the time my step-father wrote a note, <br />
+            explaining the steps to launch Warcraft 2 from MS-DOS.
+            <br />
+            That note became a portal to another world.
             <br />
             A world which I embraced.
             <br />
             <br />
             <strong>
-                A lot has changed since those days, but my passion remained.
+                A lot has changed since 1997, but my passion remained.
             </strong>
             <br />
             <br />
-            After a time of pursuing other passions, studying, traveling and
-            working day-jobs I finally realized my true calling had been there
-            all along.
-            <br />
+            After a time of pursuing other interests, studying, traveling and
+            working day-jobs I finally realized that my true calling had been
+            there all along.
             <br />
             I finished my bachelor's degree in Systems Science at Luleå Tekniska
-            Universitet, 2018. My thesis focused on improving software
-            documentation using data visualization. Since then I've focused my
-            atention on modern web development. Long term I would love to learn
-            more about machine learning.
+            Universitet, 2018. My thesis was an exploratory case-study about
+            improving software documentation using data visualization.
+            <br />
+            Since then I've focused my atention on modern web development.
         </TextContent>
         <TextContent>
             <TextTitle>My Skills</TextTitle>
             Specialized in semantic HTML, modern CSS, JavaScript ES20xx & its
             ecosystem.
-            <br />
-            <em>Full list of technologies at the bottom of the page.</em>
             <br />
             <div>
                 <FaHtml5 size={32} />
@@ -74,6 +73,8 @@ const AboutPage = () => (
                 <FaJsSquare size={32} />
                 <FaReact size={32} />
             </div>
+            <em>(Full skill list at the bottom of the page)</em>
+            <br />
             <br />
             I enjoy the whole stack and always try to choose the right tool for
             the job. Design patterns, testing, software architecture &
@@ -84,22 +85,25 @@ const AboutPage = () => (
             and readable is a fulfulling challenge that I try to get better at
             each day.
             <br />
-            I really enjoy doing design and UX work as well. I don't mind
-            database management, but delegating that responsibility to a third
-            party allows me to focus on delivering an awesome user experience.
-            The methodologies I embrace in my work are Agile, Lean Software
-            Development & Kanban.
+            <br />
+            I enjoy doing design and UX work because I'm motivated by impacting
+            the end-users in a direct way. I don't mind database management, but
+            delegating that responsibility to a third party allows me to focus
+            on delivering an awesome user experience. The methodologies I
+            embrace in my work are Agile, Lean Software Development & Kanban.
+            <br />
             <br />
             My favorite JS tools are react, redux, webpack, styled-components &
             gatsby.
             <br />
             Other programming languages that I have previous experience with are
-            C, C#, Java & php.
+            C, C#, Java & php. Long term I would love to learn more about
+            machine learning.
         </TextContent>
         <TextContent>
             <TextTitle>My Personality</TextTitle>
-            I have a very analytical mindset. This is reflected in my three
-            biggest interests: music, strategy games & programming.
+            I definately have an analytical mindset. This is reflected in my
+            three biggest interests: music, strategy games & programming.
             <br />
             <br />
             As with any personaliy trait, an analytical mindset brings both
@@ -119,8 +123,8 @@ const AboutPage = () => (
             Even though I am an introvert, I am still very talkative and enjoy
             working with other people, especially when we are learning together.
             One of my core values is to always leave my ego at the door and take
-            every opportunity to improve. This means that I really enjoy getting
-            feedback from others, even if it could be construed as critizism.
+            every opportunity to improve. This means that I value feedback from
+            others, even if it could be construed as critizism.
             <br />
             <br />
             I love customizing my development experience to improve my
@@ -133,8 +137,13 @@ const AboutPage = () => (
             oskarhulter@gmail.com
         </TextContent>
         <SkillText>
-            front-end: html5 css3 javascript react redux gatsby back-end:
-            frameworks: tools:
+            front-end: html5 css3 javascript react redux gatsby
+            <br />
+            back-end:
+            <br />
+            frameworks:
+            <br />
+            tools:
         </SkillText>
 
         <UpButton />

@@ -12,7 +12,7 @@ import styled from 'styled-components'
 const GalleryWrapper = styled.section`
     background-color: #2ea1ab;
     min-height: 100vh;
-    width: 95vw;
+    width: 98vw;
 `
 const IMAGES = [
     {
@@ -22,6 +22,8 @@ const IMAGES = [
         thumbnailWidth: 317,
         thumbnailHeight: 317,
         tags: [{ value: 'Responsive Website', title: 'Project Type' }],
+        caption:
+            'Built and designed a responsive website to promote a non-profit organization.',
     },
     {
         src: img1,
@@ -40,7 +42,7 @@ const IMAGES = [
         thumbnailHeight: 317,
         tags: [{ value: 'CMS', title: 'Project Type' }],
         caption:
-            'Website for a local non-profit cinema club. Old cinema chairs and dim-lighting inspired the choice of colors.',
+            'Old cinema chairs and dim-lighting inspired the choice of colors.',
     },
     {
         src: img3,
@@ -80,7 +82,7 @@ const IMAGES = [
 const ProjectGallery = () => (
     <GalleryWrapper>
         <div className="gallery-jump-point" />
-        <Gallery images={IMAGES} rowHeight="300" enableImageSelection={false} />
+        <Gallery images={IMAGES} rowHeight="325" enableImageSelection={false} />
     </GalleryWrapper>
 )
 
