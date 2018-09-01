@@ -4,12 +4,15 @@
     "version": "0.1.0",
     "author": "Oskar Hulter <oskarhulter@gmail.com>",
     "dependencies": {
+        "ajv": "^6.5.3",
         "gatsby": "next",
         "gatsby-link": "next",
         "gatsby-plugin-react-helmet": "next",
         "gatsby-plugin-styled-components": "next",
         "gatsby-source-filesystem": "next",
         "jump.js": "^1.0.2",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
         "react-grid-gallery": "^0.5.1",
         "react-helmet": "^5.2.0",
         "react-icons": "^3.0.4",
@@ -28,6 +31,7 @@
         "lint:watch": "npm run lint -- --watch"
     },
     "devDependencies": {
+        "babel-plugin-styled-components": "^1.6.0",
         "eslint": "^5.2.0",
         "eslint-plugin-react": "^7.10.0",
         "eslint-watch": "^4.0.2",

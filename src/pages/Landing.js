@@ -40,7 +40,7 @@ const SubTitle = styled.h2`
     letter-spacing: 0.5vmin;
 `
 
-const IndexPage = () => (
+const LandingPage = () => (
     <LandingPageWrapper>
         <TitleWrapper>
             <div className="landing-jump-point" />
@@ -56,4 +56,4 @@ const IndexPage = () => (
     </LandingPageWrapper>
 )
 
-export default IndexPage
+export default LandingPage
