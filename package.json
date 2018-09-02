@@ -6,7 +6,6 @@
     "dependencies": {
         "ajv": "^6.5.3",
         "gatsby": "next",
-        "gatsby-link": "next",
         "gatsby-plugin-react-helmet": "next",
         "gatsby-plugin-styled-components": "next",
         "gatsby-source-filesystem": "next",
