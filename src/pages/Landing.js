@@ -1,6 +1,6 @@
 import React from 'react'
 import SocialButtons from 'components/SocialButtons'
-import MainButtons from '../components/MainButtons'
+import MainButtons from 'components/MainButtons'
 import styled from 'styled-components'
 
 const LandingPageWrapper = styled.header`
