@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import '../css/reset.css'
-import '../css/index.css'
+import 'css/reset.css'
+import 'css/index.css'
 
 import { StaticQuery, graphql } from 'gatsby'
 

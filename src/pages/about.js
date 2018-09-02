@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import UpButton from '../components/UpButton'
+import UpButton from 'components/UpButton'
 import { FaReact } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
@@ -50,8 +50,7 @@ const AboutPage = () => (
             explaining the steps to launch Warcraft 2 from MS-DOS.
             <br />
             That note became a portal to another world.
-            <br />
-            A world which I embraced.
+            <br />A world which I embraced.
             <br />
             <br />
             <strong>
@@ -62,10 +61,9 @@ const AboutPage = () => (
             After a time of pursuing other interests, studying, traveling and
             working day-jobs I finally realized that my true calling had been
             there all along.
-            <br />
-            I finished my bachelor's degree in Systems Science at Luleå Tekniska
-            Universitet, 2018. My thesis was an exploratory case-study about
-            improving software documentation using data visualization.
+            <br />I finished my bachelor's degree in Systems Science at Luleå
+            Tekniska Universitet, 2018. My thesis was an exploratory case-study
+            about improving software documentation using data visualization.
             <br />
             Since then I've focused my atention on modern web development.
         </TextContent>
@@ -82,9 +80,8 @@ const AboutPage = () => (
             </div>
             <em>Full skill list at the bottom of the page.</em>
             <br />
-            <br />
-            I enjoy the whole stack and always try to choose the right tool for
-            the job. Design patterns, testing, software architecture &
+            <br />I enjoy the whole stack and always try to choose the right
+            tool for the job. Design patterns, testing, software architecture &
             declarative/functional programming are the areas I am most excited
             about at the moment.
             <br />
@@ -92,12 +89,12 @@ const AboutPage = () => (
             and readable is a fulfulling challenge that I try to get better at
             each day.
             <br />
-            <br />
-            I enjoy doing design and UX work because I'm motivated by impacting
-            the end-users in a direct way. I don't mind database management, but
-            delegating that responsibility to a third party allows me to focus
-            on delivering an awesome user experience. The methodologies I
-            embrace in my work are Agile, Lean Software Development & Kanban.
+            <br />I enjoy doing design and UX work because I'm motivated by
+            impacting the end-users in a direct way. I don't mind database
+            management, but delegating that responsibility to a third party
+            allows me to focus on delivering an awesome user experience. The
+            methodologies I embrace in my work are Agile, Lean Software
+            Development & Kanban.
             <br />
             <br />
             My favorite JS tools are react, redux, webpack, styled-components &
@@ -108,9 +105,9 @@ const AboutPage = () => (
             machine learning.
         </TextContent>
         <TextContent>
-            <TextTitle>My Personality</TextTitle>
-            I definately have an analytical mindset. This is reflected in my
-            three biggest interests: music, strategy games & programming.
+            <TextTitle>My Personality</TextTitle>I definately have an analytical
+            mindset. This is reflected in my three biggest interests: music,
+            strategy games & programming.
             <br />
             <br />
             As with any personaliy trait, an analytical mindset brings both
@@ -126,11 +123,11 @@ const AboutPage = () => (
             isn't the most efficient solution, you can still learn more about
             what you need than if you just sit around and think.
             <br />
-            <br />
-            I enjoy working with other people & I am very talkative for being an
-            introvert. One of my core values is to always leave my ego at the
-            door and take every opportunity to improve. This means that I value
-            feedback from others, even if it could be construed as critizism.
+            <br />I enjoy working with other people & I am very talkative for
+            being an introvert. One of my core values is to always leave my ego
+            at the door and take every opportunity to improve. This means that I
+            value feedback from others, even if it could be construed as
+            critizism.
             <br />
             <br />
             Currently I am developing a website called stressless.productions
