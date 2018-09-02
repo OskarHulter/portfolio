@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Layout from 'components/Layout'
-import Landing from './Landing'
-import AboutPage from 'pages/About'
-import ProjectGallery from 'pages/Gallery'
+import Landing from 'Landing'
+import AboutPage from 'About'
+import ProjectGallery from 'Gallery'
 import Footer from 'components/Footer'
 
 const GlobalWrapper = styled.div`

@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialButton from './SocialButton'
+import SocialButton from 'SocialButton'
 import styled from 'styled-components'
 
 const SocialWrapper = styled.div`
