@@ -5,6 +5,7 @@ import { FaReact } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { FaJsSquare } from 'react-icons/fa'
+import ProjectLinks from '../components/projectlinks'
 
 const AboutWrapper = styled.section`
     display: grid;
@@ -41,6 +42,7 @@ const TextTitle = styled.h2`
 
 const AboutPage = () => (
     <AboutWrapper>
+        <ProjectLinks />
         <TextContent>
             <div className="about-jump-point" />
             <TextTitle>My Story</TextTitle>
