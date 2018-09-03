@@ -11,8 +11,7 @@ const StyledSocialButton = styled.button`
     width: 55px;
     border-radius: 50%;
     margin: 7px;
-    font-size: 2vmin;
-    padding-top: 4px;
+    padding-top: 5px;
 `
 
 function renderLink(type) {
