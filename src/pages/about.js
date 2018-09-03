@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import UpButton from '../components/UpButton'
+import UpButton from '../components/upbutton'
 import ProjectLinks from '../components/projectlinks'
 
 const AboutWrapper = styled.section`
