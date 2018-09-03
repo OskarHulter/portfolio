@@ -33,7 +33,6 @@ button:hover:after {
     transition: 800ms ease all;
 }
 
-em {
-    font-style: italic;
-    font-size: 0.7em;
+strong {
+    font-weight: bold;
 }

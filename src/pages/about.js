@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import UpButton from '../components/UpButton'
-import { FaReact } from 'react-icons/fa'
-import { FaHtml5 } from 'react-icons/fa'
-import { FaCss3Alt } from 'react-icons/fa'
-import { FaJsSquare } from 'react-icons/fa'
 import ProjectLinks from '../components/projectlinks'
 
 const AboutWrapper = styled.section`
@@ -29,9 +25,8 @@ const TextContent = styled.div`
     }
 `
 const SkillText = styled.div`
-    margin: 1.5em 0;
-    font-size: 0.6em;
-    text-align: center;
+    font-size: 0.9em;
+    text-align: left;
 `
 const TextTitle = styled.h2`
     color: #2ea1ab;
@@ -67,25 +62,27 @@ const AboutPage = () => (
             Tekniska Universitet, 2018. My thesis was an exploratory case-study
             about improving software documentation using data visualization.
             <br />
-            Since then I've focused my atention on modern web development.
+            Since then I've focused my attention on modern web development.
         </TextContent>
+
+        <TextTitle>My Skills</TextTitle>
+        <SkillText>
+            <strong>programming languages:</strong> JavaScript C C# Java php
+            <br />
+            <strong>front-end</strong>: html5 css3 react redux gatsby
+            <br />
+            <strong>back-end</strong>: Node Express MongoDB MySQL GraphQL REST
+            <br />
+            <strong>tools</strong>: git webpack jest wireshark nmap
+            <br />
+            <strong>misc</strong>: design data-viz agile lean kanban
+        </SkillText>
         <TextContent>
-            <TextTitle>My Skills</TextTitle>
             Specialized in semantic HTML, modern CSS, JavaScript ES20xx & its
-            ecosystem.
-            <br />
-            <div>
-                <FaHtml5 size={32} />
-                <FaCss3Alt size={32} />
-                <FaJsSquare size={32} />
-                <FaReact size={32} />
-            </div>
-            <em>Full skill list at the bottom of the page.</em>
-            <br />
-            <br />I enjoy the whole stack and always try to choose the right
-            tool for the job. Design patterns, testing, software architecture &
-            declarative/functional programming are the areas I am most excited
-            about at the moment.
+            ecosystem. I enjoy the whole stack and always try to choose the
+            right tool for the job. Design patterns, testing, software
+            architecture & declarative/functional programming are the areas I am
+            most excited about at the moment.
             <br />
             The art of writing clean code that is consistent, consise, elegant
             and readable is a fulfulling challenge that I try to get better at
@@ -107,12 +104,12 @@ const AboutPage = () => (
             machine learning.
         </TextContent>
         <TextContent>
-            <TextTitle>My Personality</TextTitle>I definately have an analytical
+            <TextTitle>My Personality</TextTitle>I definitely have an analytical
             mindset. This is reflected in my three biggest interests: music,
             strategy games & programming.
             <br />
             <br />
-            As with any personaliy trait, an analytical mindset brings both
+            As with any personality trait, an analytical mindset brings both
             opportunities and challenges. I really enjoy the process of
             learning, working on my craft, experiencing new realizations and the
             fulfillment of solving problems efficiently. I am always looking for
@@ -122,35 +119,27 @@ const AboutPage = () => (
             My primary challenge is that I am susceptible to analysis paralysis.
             I try to remedy this by acknowledging that no solution has to be
             perfect from the start. Even if you start building something that
-            isn't the most efficient solution, you can still learn more about
-            what you need than if you just sit around and think.
+            isn't the most efficient solution, you'll still learn more about
+            what's needed than if you sit around and think.
             <br />
             <br />I enjoy working with other people & I am very talkative for
             being an introvert. One of my core values is to always leave my ego
             at the door and take every opportunity to improve. This means that I
             value feedback from others, even if it could be construed as
-            critizism.
+            criticism.
             <br />
             <br />
             Currently I am developing a website called stressless.productions
             that will host royalty-free music. It is still under construction
             but I will post more info when I've come a bit further along. I am
             also in the process of creating a webshop called festivaltent.shop
-            offering tents with fun patterns targeted at music festivals.
+            offering tents with fun patterns.
             <br />
             <br />
-            Please feel free to contact me at:
+            <br />
             <br />
             <TextTitle>oskarhulter@gmail.com</TextTitle>
         </TextContent>
-        <SkillText>
-            <TextTitle>skill list</TextTitle>
-            front-end: html5 css3 javascript react redux gatsby
-            <br />
-            back-end: Node Express MongoDB MySQL GraphQL REST C C# Java php
-            <br />
-            misc: git webpack jest wireshark nmap packet tracer
-        </SkillText>
 
         <UpButton />
     </AboutWrapper>
