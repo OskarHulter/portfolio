@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import '../css/reset.css'
 import '../css/index.css'
-
+// Layout component that wraps site
 import { StaticQuery, graphql } from 'gatsby'
 
 const Layout = ({ children }) => (

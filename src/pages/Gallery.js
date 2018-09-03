@@ -7,7 +7,7 @@ import img5 from 'img/csc-img1.png'
 import img6 from 'img/csc-img2.png'
 import Gallery from 'react-grid-gallery'
 import styled from 'styled-components'
-
+// Gallery component for showing my projects
 const GalleryWrapper = styled.section`
     background-color: #2ea1ab;
     min-height: 20vh;

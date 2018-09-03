@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaEnvelope } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import styled from 'styled-components'
-/* eslint-disable indent */
+// Social buttons that gets passed type
 const StyledSocialButton = styled.button`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 55px;
