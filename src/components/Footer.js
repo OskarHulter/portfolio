@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import SocialButtons from './SocialButtons'
-// Footer containing social links
+import SocialButtons from './socialbuttons'
+// Footer containing social buttons
 const FooterWrapper = styled.footer`
     width: 315px;
     height: 70px;
