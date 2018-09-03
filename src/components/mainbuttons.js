@@ -9,6 +9,7 @@ const ButtonWrapper = styled.div`
 const MainButton = styled.button`
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 35vmin;
     height: 15vmin;
     margin: 2vmin;
