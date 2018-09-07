@@ -1,7 +1,7 @@
 :root {
-    --blue: #25008b;
-    --teal: #2ea1ab;
-    --red: #f05075;
+    --blue: #3a155c;
+    --teal: #acb7b2;
+    --red: #acb7b2;
     --darkteal: #4b1c77;
 }
 
@@ -22,7 +22,6 @@ button {
     border: none;
     transition: 800ms ease all;
     font-family: 'Open Sans', sans-serif;
-    outline: none;
     cursor: pointer;
     text-align: center;
 }

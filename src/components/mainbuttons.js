@@ -14,6 +14,16 @@ const MainButton = styled.button`
     height: 15vmin;
     margin: 2vmin;
     font-size: 6vmin;
+    color: ${props => props.theme.backgroundMain};
+    background-color: ${props => props.theme.primaryColor};
+    border: none;
+    cursor: pointer;
+    transition: 800ms ease all;
+    font-family: ${props => props.theme.textFont};
+    :hover {
+        color: ${props => props.theme.primaryColor};
+        background-color: ${props => props.theme.backgroundMain};
+    }
 `
 
 const MainButtons = () => (

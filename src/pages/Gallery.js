@@ -12,7 +12,7 @@ import Gallery from 'react-grid-gallery'
 import styled from 'styled-components'
 // Gallery component for showing my projects
 const GalleryWrapper = styled.section`
-    background-color: #2ea1ab;
+    background-color: ${props => props.theme.backgroundSecondary};
     min-height: 20vh;
     width: 95%;
 `

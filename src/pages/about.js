@@ -29,10 +29,9 @@ const SkillText = styled.div`
     text-align: left;
 `
 const TextTitle = styled.h2`
-    color: #2ea1ab;
+    color: ${props => props.theme.primaryColor};
     font-size: 2em;
-    filter: brightness(130%);
-    font-family: 'Cutive Mono', monospace;
+    font-family: ${props => props.theme.headerFont};
 `
 
 const AboutPage = () => (

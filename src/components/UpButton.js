@@ -10,7 +10,16 @@ const StyledUpButton = styled.button`
     border-radius: 50%;
     margin: 50px;
     padding-top: 5px;
-    background-color: #f05075;
+    color: ${props => props.theme.backgroundMain};
+    background-color: ${props => props.theme.secondaryColor};
+    border: none;
+    cursor: pointer;
+    transition: 800ms ease all;
+    font-family: ${props => props.theme.textFont};
+    :hover {
+        color: ${props => props.theme.primaryColor};
+        background-color: ${props => props.theme.backgroundMain};
+    }
 `
 
 const UpButton = () => (

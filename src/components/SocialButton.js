@@ -5,6 +5,7 @@ import { FaEnvelope } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import styled from 'styled-components'
 // Social buttons that gets passed type
+//
 const StyledSocialButton = styled.button`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 55px;
@@ -12,6 +13,16 @@ const StyledSocialButton = styled.button`
     border-radius: 50%;
     margin: 7px;
     padding-top: 5px;
+    color: ${props => props.theme.backgroundMain};
+    background-color: ${props => props.theme.backgroundSecondary};
+    border: none;
+    cursor: pointer;
+    transition: 800ms ease all;
+
+    :hover {
+        color: ${props => props.theme.backgroundSecondary};
+        background-color: ${props => props.theme.backgroundMain};
+    }
 `
 
 function renderLink(type) {

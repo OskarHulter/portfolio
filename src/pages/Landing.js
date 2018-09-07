@@ -22,8 +22,8 @@ const OskarHulter = styled.div`
 `
 const TitleWrapper = styled.div`
     font-size: 20vmin;
-    color: #f05075;
-    font-family: 'Cutive Mono', monospace;
+    color: ${props => props.theme.secondaryColor};
+    font-family: ${props => props.theme.headerFont};
     line-height: 15vmin;
     display: flex;
     align-items: center;
@@ -31,10 +31,9 @@ const TitleWrapper = styled.div`
     margin-top: 5vmin;
 `
 const SubTitle = styled.h2`
-    color: #2ea1ab;
+    color: ${props => props.theme.primaryColor};
+    font-family: ${props => props.theme.headerFont};
     font-size: 5vmin;
-    filter: brightness(130%);
-    font-family: 'Cutive Mono', monospace;
     line-height: 3vmin;
     padding-bottom: 2vmin;
     letter-spacing: 0.5vmin;

@@ -5,11 +5,12 @@ import SocialButtons from './socialbuttons'
 const FooterWrapper = styled.footer`
     width: 315px;
     height: 70px;
-    color: #25008b;
-    background-color: #2ea1ab;
+    background-color: ${props => props.theme.primaryColor};
     border-top-left-radius: 20% 80%;
     border-top-right-radius: 20% 80%;
     padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
 `
 const Footer = () => (
     <FooterWrapper>

@@ -7,10 +7,11 @@ const StyledProjectLinks = styled.div`
     justify-content: center;
     align-items: center;
     width: 95%;
-    color: #25008b;
-    background-color: #2ea1ab;
+    color: ${props => props.theme.backgroundMain};
+    background-color: ${props => props.theme.backgroundSecondary};
     border-bottom-left-radius: 20% 80%;
     border-bottom-right-radius: 20% 80%;
+    font-family: ${props => props.theme.textFont};
 `
 
 const ProjectLinks = () => (
