@@ -25,16 +25,16 @@
         "build": "gatsby build",
         "develop": "gatsby develop",
         "format": "prettier --write 'src/**/*.js'",
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "e2e": "cypress open",
         "lint": "esw webpack.config.* src tools --color",
         "lint:watch": "npm run lint -- --watch"
     },
     "devDependencies": {
         "babel-plugin-styled-components": "^1.6.0",
+        "cypress": "^3.1.0",
         "eslint": "^5.2.0",
         "eslint-plugin-react": "^7.10.0",
         "eslint-watch": "^4.0.2",
-        "jest": "^23.5.0",
         "prettier": "^1.13.7",
         "url-loader": "^1.0.1"
     },
