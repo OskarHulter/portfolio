@@ -10,10 +10,14 @@ const MainButton = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35vmin;
-    height: 15vmin;
+    min-width: 110px;
+    min-height: 80px;
+    width: 38vmin;
+    height: 20vmin;
     margin: 2vmin;
-    font-size: 6vmin;
+    font-size: 7vmin;
+    padding-bottom: 3px;
+    border-radius: 50%;
     color: ${props => props.theme.backgroundMain};
     background-color: ${props => props.theme.primaryColor};
     border: none;

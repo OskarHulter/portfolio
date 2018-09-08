@@ -11,22 +11,27 @@ const AboutWrapper = styled.section`
     flex-direction: column;
     align-items: center;
     line-height: 1.7;
+    font-family: ${props => props.theme.textFont};
 `
 const TextContent = styled.div`
-    margin: 1.5em 40px;
-    max-width: 700px;
+    margin: 1.5em 4px;
+    max-width: 750px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
     @media (min-width: 768px) {
         font-size: 1em;
+        margin: 1.5em 40px;
     }
     @media (min-width: 992px) {
         font-size: 1.2em;
+
+        margin: 1.5em 40px;
     }
 `
 const SkillText = styled.div`
     font-size: 0.9em;
     text-align: left;
+    padding-left: 100px;
 `
 const TextTitle = styled.h2`
     color: ${props => props.theme.primaryColor};
@@ -37,32 +42,6 @@ const TextTitle = styled.h2`
 const AboutPage = () => (
     <AboutWrapper>
         <ProjectLinks />
-        <TextContent>
-            <div className="about-jump-point" />
-            <TextTitle>My Story</TextTitle>
-            My passion for computers started at the age of six.
-            <br />
-            Specifically, around the time my step-father wrote a note, <br />
-            explaining the steps to launch Warcraft 2 from MS-DOS.
-            <br />
-            That note became a portal to another world.
-            <br />A world which I embraced.
-            <br />
-            <br />
-            <strong>
-                A lot has changed since 1997, but my passion remained.
-            </strong>
-            <br />
-            <br />
-            After a time of pursuing other interests, studying, traveling and
-            working day-jobs I finally realized that my true calling had been
-            there all along.
-            <br />I finished my bachelor's degree in Systems Science at Luleå
-            Tekniska Universitet, 2018. My thesis was an exploratory case-study
-            about improving software documentation using data visualization.
-            <br />
-            Since then I've focused my attention on modern web development.
-        </TextContent>
 
         <TextTitle>My Skills</TextTitle>
         <SkillText>
@@ -78,14 +57,13 @@ const AboutPage = () => (
         </SkillText>
         <TextContent>
             Specialized in semantic HTML, modern CSS, JavaScript ES20xx & its
-            ecosystem. I enjoy the whole stack and always try to choose the
-            right tool for the job. Design patterns, testing, software
-            architecture & declarative/functional programming are the areas I am
-            most excited about at the moment.
+            ecosystem. <br /> I'm comfortable with the entire stack & I always
+            try to choose the right tool for the job. Design patterns, testing,
+            software architecture & declarative/functional programming are the
+            areas I am most excited about at the moment.
             <br />
-            The art of writing clean code that is consistent, consise, elegant
-            and readable is a fulfulling challenge that I try to get better at
-            each day.
+            My favorite JS tools are react, redux, webpack, styled-components &
+            gatsby.
             <br />
             <br />I enjoy doing design and UX work because I'm motivated by
             impacting the end-users in a direct way. I don't mind database
@@ -95,13 +73,43 @@ const AboutPage = () => (
             Development & Kanban.
             <br />
             <br />
-            My favorite JS tools are react, redux, webpack, styled-components &
-            gatsby.
-            <br />
-            Other programming languages that I have previous experience with are
-            C, C#, Java & php. Long term I would love to learn more about
-            machine learning.
+            The art of writing clean code that is consise, consistent, elegant
+            and readable is a fulfulling challenge that I try to get better at
+            each day.
+            <br />I would love to apply & learn more about machine learning in
+            the long term.
         </TextContent>
+        <TextContent>
+            <div className="about-jump-point" />
+            <TextTitle>My Story</TextTitle>
+            My passion for computers started at the age of six.
+            <br />
+            More specifically,
+            <br /> around the time my step-father wrote a note <br />
+            explaining the steps to launch Warcraft 2 from MS-DOS.
+            <br />
+            That note became a portal to another world.
+            <br />A world which I embraced.
+            <br />
+            <br />
+            <strong>
+                A lot has changed since 1997, but my passion remained.
+            </strong>
+            <br />
+            <br />
+            After a time of pursuing other interests, studying, traveling and
+            working day-jobs I finally realized that my true calling had been
+            there all along.
+            <br />I finished my bachelor's degree in Systems Science at Luleå
+            Tekniska Universitet, 2018.
+            <br /> My thesis was an exploratory case-study about improving
+            software documentation using data visualization. The result of the
+            study indicates that data-visualization can be a potent tool for
+            making software documentation easier to understand.
+            <br />
+            Since then I've focused my attention on modern web development.
+        </TextContent>
+
         <TextContent>
             <TextTitle>My Personality</TextTitle>I definitely have an analytical
             mindset. This is reflected in my three biggest interests: music,

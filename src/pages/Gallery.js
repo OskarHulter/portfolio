@@ -13,8 +13,8 @@ import styled from 'styled-components'
 // Gallery component for showing my projects
 const GalleryWrapper = styled.section`
     background-color: ${props => props.theme.backgroundSecondary};
-    min-height: 20vh;
-    width: 95%;
+    display: grid;
+    width: 100%;
 `
 const IMAGES = [
     {

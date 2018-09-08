@@ -11,32 +11,24 @@ const LandingPageWrapper = styled.header`
     grid-template-rows: 3fr 2fr 1fr;
     height: 100vh;
     width: 100%;
+    text-align: center;
+
+    font-size: 3vmin;
+    font-family: ${props => props.theme.headerFont};
 `
 const OskarHulter = styled.div`
-    font-size: 23vmin;
-    letter-spacing: 1vmin;
-    line-height: 17vmin;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    font-size: 12vmin;
+    line-height: 15vmin;
+    margin-top: 4vmin;
 `
 const TitleWrapper = styled.div`
-    font-size: 20vmin;
-    color: ${props => props.theme.secondaryColor};
-    font-family: ${props => props.theme.headerFont};
-    line-height: 15vmin;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5vmin;
+    color: ${props => props.theme.primaryColor};
 `
 const SubTitle = styled.h2`
-    color: ${props => props.theme.primaryColor};
-    font-family: ${props => props.theme.headerFont};
+    color: ${props => props.theme.secondaryColor};
     font-size: 5vmin;
     line-height: 3vmin;
-    padding-bottom: 2vmin;
-    letter-spacing: 0.5vmin;
+    letter-spacing: 0.6vmin;
 `
 
 const LandingPage = () => (
@@ -44,11 +36,14 @@ const LandingPage = () => (
         <TitleWrapper>
             <div className="landing-jump-point" />
             <OskarHulter>
-                <h1>Oskar</h1>
-                <h1>Hulter</h1>
+                <h1>Oskar Hulter</h1>
             </OskarHulter>
             <SubTitle>fullstack web developer</SubTitle>
         </TitleWrapper>
+        <p>
+            I'm a web dev that loves Javascript & it's ecosystem, <br />
+            Check out my work or get in touch.
+        </p>
 
         <MainButtons />
         <SocialButtons />

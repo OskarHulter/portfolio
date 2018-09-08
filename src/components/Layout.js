@@ -20,6 +20,10 @@ const Layout = ({ children }) => (
                     titleTemplate={`%s | ${data.site.siteMetadata.title}`}
                     defaultTitle={data.site.siteMetadata.title}
                 />
+                <link
+                    href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700"
+                    rel="stylesheet"
+                />
                 <div>{children}</div>
             </>
         )}
