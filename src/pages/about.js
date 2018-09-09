@@ -18,6 +18,8 @@ const TextContent = styled.div`
     max-width: 750px;
     text-align: center;
     font-size: 0.8em;
+
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
     @media (min-width: 768px) {
         font-size: 1em;
         margin: 1.5em 40px;
@@ -29,13 +31,15 @@ const TextContent = styled.div`
     }
 `
 const SkillText = styled.div`
-    font-size: 0.9em;
     text-align: left;
-    padding-left: 100px;
+    padding-left: 50px;
+    strong {
+        font-weight: bold;
+    }
 `
 const TextTitle = styled.h2`
-    color: ${props => props.theme.primaryColor};
-    font-size: 2em;
+    color: ${props => props.theme.backgroundSecondary};
+    font-size: 2.5em;
     font-family: ${props => props.theme.headerFont};
 `
 
@@ -58,12 +62,14 @@ const AboutPage = () => (
         <TextContent>
             Specialized in semantic HTML, modern CSS, JavaScript ES20xx & its
             ecosystem. <br /> I'm comfortable with the entire stack & I always
-            try to choose the right tool for the job. Design patterns, testing,
-            software architecture & declarative/functional programming are the
-            areas I am most excited about at the moment.
+            try to choose the right tool for the job.
             <br />
             My favorite JS tools are react, redux, webpack, styled-components &
             gatsby.
+            <br />
+            Design patterns, testing, software architecture &
+            declarative/functional programming are the areas I am most excited
+            about at the moment.
             <br />
             <br />I enjoy doing design and UX work because I'm motivated by
             impacting the end-users in a direct way. I don't mind database
@@ -84,7 +90,7 @@ const AboutPage = () => (
             <TextTitle>My Story</TextTitle>
             My passion for computers started at the age of six.
             <br />
-            More specifically,
+            Specifically,
             <br /> around the time my step-father wrote a note <br />
             explaining the steps to launch Warcraft 2 from MS-DOS.
             <br />
