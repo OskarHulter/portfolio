@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
                         {
                             name: 'keywords',
                             content:
-                                'web development, fullstack, software engineering, portfolio',
+                                'web development, fullstack, software engineering, portfolio, Oskar Hulter',
                         },
                         {
                             name: 'viewport',

@@ -153,7 +153,9 @@ const AboutPage = () => (
             <br />
             <br />
             <br />
-            <TextTitle>oskarhulter@gmail.com</TextTitle>
+            Get in touch at:
+            <br />
+            oskarhulter@gmail.com
         </TextContent>
 
         <UpButton />

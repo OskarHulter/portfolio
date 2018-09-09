@@ -12,7 +12,7 @@ const LandingPageWrapper = styled.header`
     background-repeat: repeat;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -37,7 +37,7 @@ const EmojiWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 30px;
 `
 
 const LandingPage = () => (
@@ -49,7 +49,7 @@ const LandingPage = () => (
             <SubTitle>fullstack web developer</SubTitle>
         </TitleWrapper>
         <EmojiWrapper>
-            <FaNodeJs size={42} />+<FaReact size={42} />=<FaHeart size={42} />
+            <FaNodeJs size={34} />+<FaReact size={34} />=<FaHeart size={34} />
         </EmojiWrapper>
         <MainButtons />
         <SocialButtons />
