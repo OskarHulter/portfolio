@@ -5,8 +5,8 @@ import SocialButtons from './socialbuttons'
 const FooterWrapper = styled.footer`
     width: 315px;
     height: 120px;
-    color: ${props => props.theme.secondaryColor};
-    background-color: ${props => props.theme.backgroundSecondary};
+    color: ${props => props.theme.backgroundMain};
+    background-color: ${props => props.theme.primaryColor};
     font-family: ${props => props.theme.textFont};
     border-top-left-radius: 20% 50%;
     border-top-right-radius: 20% 50%;

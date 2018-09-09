@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { injectGlobal } from 'styled-components'
+import styled from 'styled-components'
 
 const StyledProjectLinks = styled.ul`
     display: grid;
@@ -9,7 +9,7 @@ const StyledProjectLinks = styled.ul`
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: ${props => props.theme.backgroundMain};
+    color: ${props => props.theme.fontColor};
     background-color: ${props => props.theme.backgroundSecondary};
     border-bottom-left-radius: 20% 20%;
     border-bottom-right-radius: 20% 20%;
@@ -22,7 +22,7 @@ const StyledProjectLinks = styled.ul`
 const ProjectLink = styled.li`
     text-align: center;
     a {
-        color: ${props => props.theme.backgroundMain};
+        color: ${props => props.theme.fontColor};
         text-decoration-line: underline;
     }
 `

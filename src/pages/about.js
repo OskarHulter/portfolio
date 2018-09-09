@@ -19,7 +19,7 @@ const TextContent = styled.div`
     text-align: center;
     font-size: 0.8em;
 
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
     @media (min-width: 768px) {
         font-size: 1em;
         margin: 1.5em 40px;
@@ -38,15 +38,16 @@ const SkillText = styled.div`
     }
 `
 const TextTitle = styled.h2`
-    color: ${props => props.theme.backgroundSecondary};
+    color: ${props => props.theme.primaryColor};
     font-size: 2.5em;
     font-family: ${props => props.theme.headerFont};
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
 `
 
 const AboutPage = () => (
     <AboutWrapper>
         <ProjectLinks />
-
+        <div className="about-jump-point" />
         <TextTitle>My Skills</TextTitle>
         <SkillText>
             <strong>programming languages:</strong> JavaScript C C# Java php
@@ -55,17 +56,19 @@ const AboutPage = () => (
             <br />
             <strong>back-end</strong>: Node Express MongoDB MySQL GraphQL REST
             <br />
-            <strong>tools</strong>: git webpack jest wireshark nmap
+            <strong>tools</strong>: git webpack cypress jest wireshark nmap
             <br />
             <strong>misc</strong>: design data-viz agile lean kanban
         </SkillText>
         <TextContent>
             Specialized in semantic HTML, modern CSS, JavaScript ES20xx & its
-            ecosystem. <br /> I'm comfortable with the entire stack & I always
-            try to choose the right tool for the job.
+            ecosystem. <br /> I'm up to date about the newest trends but I
+            always try to choose the right tool for the job. I know that my
+            greatest asset isn't knowledge about specific flavour-of-the-month
+            frameworks, but in my reasoning about the tradeoffs they offer.
             <br />
-            My favorite JS tools are react, redux, webpack, styled-components &
-            gatsby.
+            My favorite JS tools are react, webpack, cypress, styled-components
+            & gatsby.
             <br />
             Design patterns, testing, software architecture &
             declarative/functional programming are the areas I am most excited
@@ -86,7 +89,6 @@ const AboutPage = () => (
             the long term.
         </TextContent>
         <TextContent>
-            <div className="about-jump-point" />
             <TextTitle>My Story</TextTitle>
             My passion for computers started at the age of six.
             <br />

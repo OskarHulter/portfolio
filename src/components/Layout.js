@@ -19,11 +19,34 @@ const Layout = ({ children }) => (
                 <Helmet
                     titleTemplate={`%s | ${data.site.siteMetadata.title}`}
                     defaultTitle={data.site.siteMetadata.title}
-                />
-                <link
-                    href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700"
-                    rel="stylesheet"
-                />
+                    meta={[
+                        {
+                            charset: 'utf-8',
+                        },
+                        {
+                            name: 'description',
+                            content:
+                                'Personal website showcasing the work of Oskar Hulter',
+                        },
+                        {
+                            name: 'keywords',
+                            content:
+                                'web development, fullstack, software engineering, portfolio',
+                        },
+                        {
+                            name: 'viewport',
+                            content:
+                                'width=device-width, initial-scale=1, shrink-to-fit=no',
+                        },
+                    ]}
+                >
+                    <html lang="en" />
+                    <link
+                        href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700"
+                        rel="stylesheet"
+                    />
+                </Helmet>
+
                 <div>{children}</div>
             </>
         )}

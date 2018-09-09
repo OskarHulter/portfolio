@@ -8,6 +8,11 @@ const ButtonWrapper = styled.div`
 `
 const MainButton = styled.button`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(
+        to top,
+        ${props => props.theme.backgroundSecondary} 0%,
+        ${props => props.theme.primaryColor} 100%
+    );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,15 +24,14 @@ const MainButton = styled.button`
     font-size: 7vmin;
     padding-bottom: 3px;
     border-radius: 50%;
-    color: ${props => props.theme.backgroundSecondary};
+    color: ${props => props.theme.fontColor};
     background-color: ${props => props.theme.secondaryColor};
     border: none;
     cursor: pointer;
     transition: 800ms ease all;
     font-family: ${props => props.theme.headerFont};
     :hover {
-        color: ${props => props.theme.secondaryColor};
-        background-color: ${props => props.theme.backgroundMain};
+        color: ${props => props.theme.primaryColor};
     }
 `
 

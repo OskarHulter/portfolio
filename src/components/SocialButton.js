@@ -13,15 +13,19 @@ const StyledSocialButton = styled.button`
     border-radius: 50%;
     margin: 7px;
     padding-top: 5px;
+    background-image: linear-gradient(
+        to top,
+        ${props => props.theme.backgroundMain} 0%,
+        ${props => props.theme.backgroundSecondary} 100%
+    );
     background-color: ${props => props.theme.secondaryColor};
-    color: ${props => props.theme.backgroundSecondary};
+    color: ${props => props.theme.primaryColor};
     border: none;
     cursor: pointer;
     transition: 800ms ease all;
 
     :hover {
-        color: ${props => props.theme.secondaryColor};
-        background-color: ${props => props.theme.backgroundMain};
+        color: ${props => props.theme.fontColor};
     }
 `
 

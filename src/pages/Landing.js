@@ -37,6 +37,7 @@ const EmojiWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 32px;
 `
 
 const LandingPage = () => (

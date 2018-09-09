@@ -10,8 +10,8 @@ const StyledUpButton = styled.button`
     border-radius: 50%;
     margin: 50px;
     padding-top: 5px;
-    color: ${props => props.theme.backgroundSecondary};
-    background-color: ${props => props.theme.secondaryColor};
+    color: ${props => props.theme.backgroundMain};
+    background-color: ${props => props.theme.primaryColor};
     border: none;
     cursor: pointer;
     transition: 800ms ease all;
