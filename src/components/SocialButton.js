@@ -25,7 +25,7 @@ const StyledSocialButton = styled.button`
     transition: 800ms ease all;
 
     :hover {
-        color: ${props => props.theme.fontColor};
+        color: ${props => props.theme.backgroundMain};
     }
 `
 
