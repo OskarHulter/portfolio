@@ -11,10 +11,15 @@ import Gallery from 'react-grid-gallery'
 import styled from 'styled-components'
 // Gallery component for showing my projects
 const GalleryWrapper = styled.section`
-    background-color: ${props => props.theme.backgroundSecondary};
+    background-color: ${props => props.theme.backgroundMain};
     font-style: ${props => props.theme.textFont};
     width: 100%;
     overflow: hidden;
+    background-image: linear-gradient(
+        to top,
+        ${props => props.theme.backgroundMain} 0%,
+        ${props => props.theme.backgroundSecondary} 100%
+    );
 `
 
 const IMAGES = [

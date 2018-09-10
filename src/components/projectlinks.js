@@ -10,7 +10,7 @@ const StyledProjectLinks = styled.ul`
     align-items: center;
     width: 100%;
     color: ${props => props.theme.fontColor};
-    background-color: ${props => props.theme.backgroundSecondary};
+    background-color: ${props => props.theme.backgroundMain};
     border-bottom-left-radius: 20% 20%;
     border-bottom-right-radius: 20% 20%;
     font-family: ${props => props.theme.textFont};

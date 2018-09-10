@@ -12,6 +12,11 @@ const AboutWrapper = styled.section`
     align-items: center;
     line-height: 1.7;
     font-family: ${props => props.theme.textFont};
+    background-image: linear-gradient(
+        to top,
+        ${props => props.theme.backgroundMain} 0%,
+        ${props => props.theme.backgroundSecondary} 100%
+    );
 `
 const TextContent = styled.div`
     margin: 1.5em 4px;
