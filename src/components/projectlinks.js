@@ -49,7 +49,7 @@ const ProjectLinks = () => (
                 target="_blank"
                 rel="noreferrer"
             >
-                CMS (hosted)
+                CMS, hosted
             </a>
         </ProjectLink>
         <ProjectLink>
@@ -58,7 +58,7 @@ const ProjectLinks = () => (
                 target="_blank"
                 rel="noreferrer"
             >
-                CMS (git)
+                CMS, git
             </a>
         </ProjectLink>
         <ProjectLink>

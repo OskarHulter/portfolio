@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
                 >
                     <html lang="en" />
                     <link
-                        href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700"
+                        href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto"
                         rel="stylesheet"
                     />
                 </Helmet>
