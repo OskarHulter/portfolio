@@ -7,7 +7,7 @@ const SocialWrapper = styled.div`
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 `
 
 const SocialButtons = () => (

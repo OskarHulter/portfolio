@@ -18,10 +18,10 @@ const MainButton = styled.button`
     align-items: center;
     min-width: 110px;
     min-height: 80px;
-    width: 38vmin;
-    height: 20vmin;
+    width: 35vmin;
+    height: 18vmin;
     margin: 2vmin;
-    font-size: 7vmin;
+    font-size: 6vmin;
     padding-bottom: 3px;
     border-radius: 50%;
     color: ${props => props.theme.fontColor};

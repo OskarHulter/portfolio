@@ -12,7 +12,7 @@ const LandingPageWrapper = styled.header`
     background-repeat: repeat;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -21,7 +21,7 @@ const LandingPageWrapper = styled.header`
 `
 const TitleWrapper = styled.div`
     font-size: 13vmin;
-    padding-top: 20px;
+    padding-top: 10px;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
         0px 18px 23px rgba(0, 0, 0, 0.1);
 `
@@ -37,7 +37,7 @@ const EmojiWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 24px;
 `
 
 const LandingPage = () => (
@@ -46,10 +46,10 @@ const LandingPage = () => (
             <div className="landing-jump-point" />
             <img src={logo} alt="OH Logotype" height="129" width="119" />
             <h1>Oskar Hulter</h1>
-            <SubTitle>fullstack web developer</SubTitle>
+            <SubTitle>full-stack web developer</SubTitle>
         </TitleWrapper>
         <EmojiWrapper>
-            <FaNodeJs size={34} />+<FaReact size={34} />=<FaHeart size={34} />
+            <FaNodeJs size={30} />+<FaReact size={30} />=<FaHeart size={30} />
         </EmojiWrapper>
         <MainButtons />
         <SocialButtons />

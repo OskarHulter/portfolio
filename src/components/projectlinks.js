@@ -16,7 +16,6 @@ const StyledProjectLinks = styled.ul`
     font-family: ${props => props.theme.textFont};
     padding-bottom: 1em;
     margin-bottom: 2em;
-    font-size: 1.5em;
     min-height: 250px;
 `
 const ProjectLink = styled.li`

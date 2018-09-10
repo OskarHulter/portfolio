@@ -19,11 +19,10 @@ const AboutWrapper = styled.section`
     );
 `
 const TextContent = styled.div`
-    margin: 1.5em 4px;
+    margin: 1.5em 25px;
     max-width: 750px;
     text-align: center;
     font-size: 0.8em;
-
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
     @media (min-width: 768px) {
         font-size: 1em;
@@ -69,26 +68,35 @@ const AboutPage = () => (
             Specialized in semantic HTML, modern CSS, JavaScript ES20xx & its
             ecosystem. <br /> I'm up to date about the newest trends but I
             always try to choose the right tool for the job. I know that my
-            greatest asset isn't knowledge about specific flavour-of-the-month
-            frameworks, but in my reasoning about the tradeoffs they offer.
+            greatest asset isn't knowledge about flavour of the month
+            frameworks, but in my reasoning about the trade-offs they offer.
             <br />
             My favorite JS tools are react, webpack, cypress, styled-components
             & gatsby.
             <br />
             Design patterns, testing, software architecture &
-            declarative/functional programming are the areas I am most excited
-            about at the moment.
+            declarative/functional programming are the technical topics I am
+            most excited about at the moment.
             <br />
-            <br />I enjoy doing design and UX work because I'm motivated by
-            impacting the end-users in a direct way. I don't mind database
-            management, but delegating that responsibility to a third party
-            allows me to focus on delivering an awesome user experience. The
-            methodologies I embrace in my work are Agile, Lean Software
-            Development & Kanban.
+            <br />I enjoy design & UX work because I'm motivated by impacting
+            end-users in a direct way. I don't mind database management, but
+            delegating that responsibility to a third party allows me to focus
+            on delivering an awesome user experience. The methodologies I
+            embrace in my work are Agile, Lean Software Development & Kanban.
             <br />
             <br />
-            The art of writing clean code that is consise, consistent, elegant
-            and readable is a fulfulling challenge that I try to get better at
+            However, my curiosity is not limited to the technical realm.
+            <br /> I am interested in systems thinking in the broadest sense,
+            covering topics like business processes and understanding customer
+            needs. My thoughts on these topics are mostly influenced by the lean
+            methodology. I studied lean during my time at LTU and it deeply
+            resonates with my personal core values. The lean principles are all
+            important tools in my tool belt that I find useful in many different
+            areas.
+            <br />
+            <br />
+            The art of writing clean code that is concise, consistent, elegant
+            and readable is a fulfilling challenge that I try to get better at
             each day.
             <br />I would love to apply & learn more about machine learning in
             the long term.
@@ -120,7 +128,7 @@ const AboutPage = () => (
             study indicates that data-visualization can be a potent tool for
             making software documentation easier to understand.
             <br />
-            Since then I've focused my attention on modern web development.
+            Since then, I've focused my attention on modern web development.
         </TextContent>
 
         <TextContent>
@@ -153,7 +161,8 @@ const AboutPage = () => (
             that will host royalty-free music. It is still under construction
             but I will post more info when I've come a bit further along. I am
             also in the process of creating a webshop called festivaltent.shop
-            offering tents with fun patterns.
+            offering tents with fun patterns. This project is a bit more
+            experimental but it's a fun learning experience.
             <br />
             <br />
             <br />

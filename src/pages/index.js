@@ -10,8 +10,8 @@ import Footer from '../components/footer'
 const roboto = '"Roboto", -apple-system, "Segoe UI", Roboto, sans-serif'
 const montserrat = '"Montserrat", -apple-system, "Segoe UI", Roboto, sans-serif'
 /*
-const lato = '"Lato", -apple-system, "Segoe UI", Roboto, sans-serif'
 Old themes - Might add a theme toggle for fun later.
+const lato = '"Lato", -apple-system, "Segoe UI", Roboto, sans-serif'
 const openSans = '"Open Sans", -apple-system, "Segoe UI", Roboto, sans-serif'
 const cutiveMono = '"Cutive Mono", monospace'
 const greenFrenchPass = '#B5FFF9'
