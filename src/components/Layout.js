@@ -1,9 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-// Layout component that wraps site
 import { StaticQuery, graphql } from 'gatsby'
 
-const Layout = ({ children }) => (
+export const Layout = ({ children }) => (
     <StaticQuery
         query={graphql`
             query LayoutQuery {
@@ -52,5 +51,3 @@ const Layout = ({ children }) => (
         )}
     />
 )
-
-export default Layout

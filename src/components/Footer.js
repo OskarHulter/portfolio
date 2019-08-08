@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import SocialButtons from './socialbuttons'
-// Footer containing social buttons
+import { SocialButton } from './SocialButton'
+
 const FooterWrapper = styled.footer`
     width: 315px;
     height: 170px;
@@ -16,11 +16,23 @@ const FooterWrapper = styled.footer`
     margin-right: auto;
     font-size: 1.2em;
 `
-const Footer = () => (
+
+const SocialWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-bottom: 50px;
+`
+
+export const Footer = () => (
     <FooterWrapper>
-        <SocialButtons />
+        <SocialWrapper>
+            <SocialButton type="gitHub" />
+            <SocialButton type="email" />
+            <SocialButton type="linkedIn" />
+            <SocialButton type="twitter" />
+        </SocialWrapper>
         <p>&copy; Oskar Hulter</p>
     </FooterWrapper>
 )
-
-export default Footer

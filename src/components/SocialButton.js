@@ -4,8 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaEnvelope } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import styled from 'styled-components'
-// Social buttons that gets passed type
-//
+
 const StyledSocialButton = styled.button`
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 55px;
@@ -59,10 +58,8 @@ function renderIcon(type) {
     }
 }
 
-const SocialButton = props => (
+export const SocialButton = props => (
     <a href={renderLink(props.type)} target="_blank">
         <StyledSocialButton>{renderIcon(props.type)}</StyledSocialButton>
     </a>
 )
-
-export default SocialButton

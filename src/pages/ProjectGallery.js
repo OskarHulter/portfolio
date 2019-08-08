@@ -1,15 +1,15 @@
 import React from 'react'
-import img1 from 'img/cms-img1.png'
-import img2 from 'img/cms-img2.png'
-import img4 from 'img/fbv-img1.png'
-import img5 from 'img/csc-img1.png'
-import img6 from 'img/csc-img2.png'
-import img7 from 'img/preserva-img1.jpg'
-import img8 from 'img/preserva-img2.jpg'
-import img9 from 'img/preserva-img3.jpg'
+import img1 from '../img/cms-img1.png'
+import img2 from '../img/cms-img2.png'
+import img4 from '../img/fbv-img1.png'
+import img5 from '../img/csc-img1.png'
+import img6 from '../img/csc-img2.png'
+import img7 from '../img/preserva-img1.jpg'
+import img8 from '../img/preserva-img2.jpg'
+import img9 from '../img/preserva-img3.jpg'
 import Gallery from 'react-grid-gallery'
 import styled from 'styled-components'
-// Gallery component for showing my projects
+
 const GalleryWrapper = styled.section`
     background-color: ${props => props.theme.backgroundMain};
     font-style: ${props => props.theme.textFont};
@@ -99,7 +99,7 @@ const IMAGES = [
     },
 ]
 
-const ProjectGallery = () => (
+export const ProjectGallery = () => (
     <GalleryWrapper>
         <div className="gallery-jump-point" />
         <Gallery
@@ -110,5 +110,3 @@ const ProjectGallery = () => (
         />
     </GalleryWrapper>
 )
-
-export default ProjectGallery

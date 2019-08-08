@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import UpButton from '../components/upbutton'
-import ProjectLinks from '../components/projectlinks'
+import { UpButton } from '../components/UpButton'
+import { ProjectLinks } from '../components/ProjectLinks'
 
 const AboutWrapper = styled.section`
     display: grid;
@@ -48,7 +48,7 @@ const TextTitle = styled.h2`
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
 `
 
-const AboutPage = () => (
+export const AboutPage = () => (
     <AboutWrapper>
         <ProjectLinks />
         <div className="about-jump-point" />
@@ -175,5 +175,3 @@ const AboutPage = () => (
         <UpButton />
     </AboutWrapper>
 )
-
-export default AboutPage

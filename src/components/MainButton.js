@@ -2,11 +2,7 @@ import React from 'react'
 import jump from 'jump.js'
 import styled from 'styled-components'
 
-const ButtonWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-`
-const MainButton = styled.button`
+const StyledNavButton = styled.button`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: linear-gradient(
         to top,
@@ -35,23 +31,21 @@ const MainButton = styled.button`
     }
 `
 
-const MainButtons = () => (
-    <ButtonWrapper>
-        <MainButton
+export const MainButton = () => (
+    <>
+        <StyledNavButton
             onClick={() => {
                 jump('.gallery-jump-point')
             }}
         >
             projects
-        </MainButton>
-        <MainButton
+        </StyledNavButton>
+        <StyledNavButton
             onClick={() => {
                 jump('.about-jump-point')
             }}
         >
             about
-        </MainButton>
-    </ButtonWrapper>
+        </StyledNavButton>
+    </>
 )
-
-export default MainButtons

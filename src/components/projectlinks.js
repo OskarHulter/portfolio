@@ -30,7 +30,7 @@ const ProjectLinkTitle = styled.h2`
     text-align: center;
     font-family: ${props => props.theme.headerFont};
 `
-const ProjectLinks = () => (
+export const ProjectLinks = () => (
     <StyledProjectLinks>
         <ProjectLinkTitle>Project Links</ProjectLinkTitle>
         <ProjectLink>
@@ -80,5 +80,3 @@ const ProjectLinks = () => (
         </ProjectLink>
     </StyledProjectLinks>
 )
-
-export default ProjectLinks
