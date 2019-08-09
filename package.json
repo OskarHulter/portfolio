@@ -5,10 +5,10 @@
     "author": "Oskar Hulter <oskarhulter@gmail.com>",
     "dependencies": {
         "ajv": "^6.10.2",
-        "gatsby": "2.13.52",
+        "gatsby": "2.13.54",
         "jump.js": "^1.0.2",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
         "react-grid-gallery": "^0.5.5",
         "react-helmet": "^5.2.1",
         "react-icons": "^3.7.0",
@@ -28,7 +28,7 @@
     },
     "devDependencies": {
         "@types/node": "^12.7.1",
-        "@types/react": "^16.8.25",
+        "@types/react": "^16.9.0",
         "@types/react-dom": "^16.8.5",
         "@typescript-eslint/eslint-plugin": "^1.13.0",
         "@typescript-eslint/parser": "^1.13.0",
