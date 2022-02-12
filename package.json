@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "author": "Oskar Hulter <oskarhulter@gmail.com>",
     "dependencies": {
-        "ajv": "^6.10.2",
+        "ajv": "^6.12.3",
         "gatsby": "2.13.54",
         "jump.js": "^1.0.2",
         "react": "^16.9.0",
